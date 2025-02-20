@@ -13,7 +13,7 @@ const LeftBar = () => {
     }
 
     return (
-        <div className={cn("p-52 m-auto bg-stone-800 text-white h-full w-[100vw] z-50 duration-500", leftBarFullScreen ? "" : "fixed left-3 top-3 max-w-xs p-5 rounded z-20 overflow-hidden")} >
+        <div className={cn("p-52 m-auto bg-stone-800 text-white w-full z-50 duration-500", leftBarFullScreen ? "h-[100vh] max-h-[100vh]" : "left-3 top-3 max-w-xs p-5 rounded z-20 overflow-hidden h-[95vh] mt-3")} >
             <div className=" flex-nowrap justify-center items-center flex lg:flex-wrap lg:justify-start">
                 <Image height={100} width={100} src={"/img/face.jpeg"} alt={"foto"} className={leftBarFullScreen ?"rounded-full felx items-center justify-center" : "m-auto rouded"} />
                 <h3 className={cn("text-3xl ml-5 text-center flex justify-center items-center",!leftBarFullScreen && " m-auto"  )}>{leftBarFullScreen ? "Hi mi name its hector, i am a full stack software Development." : "Hector Contreras"}</h3>
