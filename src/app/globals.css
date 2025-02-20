@@ -1,6 +1,10 @@
+/* == configuracion por defecto
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*/
+
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
