@@ -12,7 +12,11 @@ export default {
       "card-shadow-light":"0 0 0 0 #1CCCF3",
       "card-next-shadow":"0 0 0 4000px #1CCCF34D",
       "card-next-shadow-light":"0 0 0 4000px #1CCCF34D",
-      "glass": "20px 20px 50px rgba(0, 0, 0, .5);"
+      "glass": "20px 20px 50px rgba(0, 0, 0, .5);",
+    },
+    colors:{
+      verde: "#0f0",
+      negro: "#333",
     },
     extend: {
       colors: {

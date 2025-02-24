@@ -7,19 +7,82 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff;
+  --foreground: #333;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #333;
+    --foreground: #fff;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background: #333;
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-undido-oscuro-unmutable {
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 10px rgba(0, 0, 0, .5),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset 5px 5px 10px rgba(0, 0, 0, .75);
+}
+.border-undido-oscuro {
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 10px rgba(0, 0, 0, .5),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset 5px 5px 10px rgba(0, 0, 0, .75);
+}
+
+.border-undido-oscuro:hover  {
+
+  box-shadow: 5px 5px 10px rgba(0, 255, 0, .25),
+    1px 1px 1px rgba(0, 255, 0, .25),
+    inset 5px 5px 5px rgba(0, 255, 0, .75);
+}
+
+.box-shadow-Hlink::before {
+    background: #0f0;
+    box-shadow: 0 0 5px #0f0,
+    0 0 6px #0f0,
+    0 0 7px #0f0,
+    0 0 8px #0f0,
+    0 0 9px #0f0,
+    0 0 10px #0f0;
+}
+
+.box-shadow-Hlink-icon {
+    box-shadow: 5px 5px 7px rgba(0,0,0,.25),
+    inset 2px 2px 3px rgba(255,255,255,.25),
+    inset -3px -3px 5px rgba(0,0,0,.5);
+}
+
+.box-shadow-Hlink-icon::before{
+    content: '';
+    position: absolute;
+    inset: 1px;
+    background: #333;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(3,3,3,.25),
+    inset 2px 2px 3px rgba(255,255,255, .25),
+    inset -3px -3px 5px rgba(3,3,3,.5);
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.box-shadow-Hlink-text {
+    box-shadow: 5px 5px 7px rgba(0,0,0,.25),
+    inset -3px -3px 5px rgba(255,255,255, .25);
+}
+
+
+.box-shadow-Hlink-text-active {
+    transform: #fff;
+    box-shadow: 5px 5px 7px rgba(0,0,0,.25),
+    inset -3px -3px 5px rgba(255,255,255, .25);
 }

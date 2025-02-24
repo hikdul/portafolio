@@ -6,7 +6,7 @@ type Store = {
 }
 
 const useMainStore = create<Store>()((set) => ({
-  leftBarFullScreen: true,
+  leftBarFullScreen: false,
   toogleLeftBarFullScreen: () => set((state) => ({ leftBarFullScreen: !state.leftBarFullScreen })),
 }))
 
