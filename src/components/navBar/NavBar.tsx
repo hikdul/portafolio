@@ -1,5 +1,5 @@
 
-import { H1Icon, HomeIcon, BriefcaseIcon } from "@heroicons/react/24/outline"
+import { H1Icon, HomeIcon, BriefcaseIcon, BookOpenIcon,  } from "@heroicons/react/24/outline"
 import Link from "next/link"
 import { hIconProps } from "./interface"
 import { HLink } from "./HLink"
@@ -9,8 +9,10 @@ const SIZE = 15
 
 const navElement: hIconProps[] =
     [
-        { title: "Home", icon: (<HomeIcon width={SIZE} className="z-40" height={SIZE} />), active: true },
-        { title: "Proyectos", icon: (<BriefcaseIcon width={SIZE} className="z-40" height={SIZE} />) },
+        { to:"/", title: "Home", icon: (<HomeIcon width={SIZE} className="z-40" height={SIZE} />), active: true },
+        { to:"/Proyectos", title: "Proyectos", icon: (<BriefcaseIcon width={SIZE} className="z-40" height={SIZE} />) },
+        { to:"/Hikdul", title: "hikdul", icon: (<H1Icon width={SIZE} className="z-40" height={SIZE} />) },
+        { to:"/Blog", title: "blog", icon: (<BookOpenIcon width={SIZE} className="z-40" height={SIZE} />) },
     ]
 
 const NavBar = () => {

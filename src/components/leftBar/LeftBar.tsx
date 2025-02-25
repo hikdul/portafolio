@@ -15,7 +15,10 @@ const LeftBar = () => {
 
     return (
 
-        <div className={cn("px-20 py-10 m-auto bg-[#333] text-white w-full z-50 duration-500", leftBarFullScreen ? "h-[100vh] max-h-[100vh]" : "left-3 top-3 max-w-xs p-5 rounded z-20 overflow-hidden h-[95vh] mt-3 border-undido-oscuro-unmutable")} >
+        <div className={cn("px-20 py-10 m-auto bg-[#333] text-white w-full z-50 duration-500", 
+                leftBarFullScreen ? 
+                "h-[100vh] max-h-[100vh]" : 
+                "left-3 top-3 max-w-xs p-5 rounded z-20 overflow-hidden h-[95vh] mt-3 border-undido-oscuro-unmutable")}>
             <div className=" flex-nowrap justify-center items-center flex lg:flex-wrap lg:justify-start">
                 <Image height={100} width={100} src={"/img/face.jpeg"} alt={"foto"} className={leftBarFullScreen ? "rounded-full felx items-center justify-center" : "m-auto rounded-xl"} />
                 {leftBarFullScreen ?

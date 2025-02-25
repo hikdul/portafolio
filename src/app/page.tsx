@@ -1,17 +1,13 @@
 "use client"
 
-import { BodyPlate, LeftBar } from "@/components";
-import { cn } from "@/lib/utils";
-import { useMainStore } from "@/Store/mainStore";
-
 export default function Home() {
 
-  const { leftBarFullScreen } = useMainStore()
 
   return (
-    <div className={cn("max-h-[100vh]",!leftBarFullScreen && " max-h-[100vh] grid grid-cols-1 lg:grid-cols-4 gap-0 ")}>
-      <LeftBar />
-      <BodyPlate  />
-    </div>
+<>
+          <p className="">
+             hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus. hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus.hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias minima iusto sunt libero quidem praesentium inventore, doloribus deserunt provident ut perspiciatis nulla enim ea dolor rerum autem, maxime necessitatibus.
+          </p>
+</>
   );
 }
