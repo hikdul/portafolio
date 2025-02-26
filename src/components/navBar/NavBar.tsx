@@ -1,6 +1,5 @@
 
 import { H1Icon, HomeIcon, BriefcaseIcon, BookOpenIcon, } from "@heroicons/react/24/outline"
-import Link from "next/link"
 import { hIconProps } from "./interface"
 import { HLink } from "./HLink"
 import { useMainStore } from "@/Store/mainStore"

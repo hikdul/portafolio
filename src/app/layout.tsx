@@ -1,11 +1,8 @@
-"use client"
 
-//import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { LeftBar, NavBar } from "@/components";
-import { cn } from "@/lib/utils";
-import { useMainStore } from "@/Store/mainStore";
+import {  MainLayout } from "@/components";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,10 +14,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-//export const metadata: Metadata = {
-//  title: "hikdul",
-//  description: "Hector Luis Contreras Di Girolamo - Portafolio",
-//};
+export const metadata: Metadata = {
+  title: "hikdul",
+  description: "Hector Luis Contreras Di Girolamo - Portafolio",
+};
 
 export default function RootLayout({
   children,
@@ -28,24 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const { leftBarFullScreen } = useMainStore()
 
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className={cn("max-h-[100vh]", !leftBarFullScreen && " max-h-[100vh] grid grid-cols-1 lg:grid-cols-4 gap-0 ")}>
-          <LeftBar />
-          <div className={cn("opacity-0 duration-300 max-h-[100vh] top-0", !leftBarFullScreen && " opacity-100 col-span-3 w-full h-[90hv] bg-[#333] z-10  overflow-hidden p-5 pl-10 mt-3 -ml-12 rounded border-undido-oscuro-unmutable")}>
-            <NavBar />
-            <div className="mt-[5.5rem]">
-              <div className="bg-[#ffffff36] p-5 rounded-xl min-h-[80vh] backdrop-blur-sm border-2">
-                {children}
-              </div>
-            </div>
-          </div>
-        </div>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <MainLayout children={children} />
       </body>
     </html>
   );
