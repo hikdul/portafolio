@@ -3,8 +3,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
-import { H1Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { LeftBar2 } from "@/components";
+import { hIconProps } from "@/components/navBar/interface";
+import { HLink } from "@/components/navBar/HLink";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,6 +23,15 @@ export const metadata: Metadata = {
   description: "Hector Luis Contreras Di Girolamo - Portafolio",
 };
 
+
+const SIZE = 25
+const navElement: hIconProps[] =
+  [
+    { to: "/", title: "Home", icon: (<HomeIcon width={SIZE} className="z-40" height={SIZE} />), active: true },
+    { to: "/Proyectos", title: "Proyectos", icon: (<BriefcaseIcon width={SIZE} className="z-40" height={SIZE} />) },
+    { to: "/Hikdul", title: "hikdul", icon: (<H1Icon width={SIZE} className="z-40" height={SIZE} />) },
+    { to: "/Blog", title: "blog", icon: (<BookOpenIcon width={SIZE} className="z-40" height={SIZE} />) },
+  ]
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -30,12 +41,17 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] no-scrollbar`}>
-          <LeftBar2 />
-        <div className="ml-72 mt-10 border-undido-oscuro-unmutable rounded-2xl border-0 p-10 max-h-[90vh] overflow-hidden overflow-y-scroll no-scrollbar">
-          <div className="no-scrollbar overflow-y-auto">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-wrap lg:flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] no-scrollbar`}>
+        <LeftBar2 />
+        <div className="w-full lg:ml-72 mt-5 border-undido-oscuro-unmutable rounded-2xl border-0 p-10 max-h-[80vh] overflow-hidden overflow-y-scroll no-scrollbar">
+          <div className="w-full no-scrollbar overflow-y-auto">
             {children}
           </div>
+        </div>
+        <div className="main-h-1 lg:min-h-1.5 xl:min-h-2 fixed left-0 bottom-5 ml-72 z-50 w-full">
+          <ul className="navigation relative w-full max-w-[79vw] min-h-20 lg:min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl md:rounded-br-4xl rounded-tl-4xl md:rounded-tl-none rounded-tr-4xl md:rounded-tr-none">
+            {navElement && navElement.map(x => <HLink {...x} key={x.title} />)}
+          </ul>
         </div>
       </body>
     </html>

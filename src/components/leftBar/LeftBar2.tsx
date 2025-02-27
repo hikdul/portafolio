@@ -7,7 +7,7 @@ import { DataIconLB } from "./dataIconlb"
 const LeftBar2 = () => {
 
     return (
-        <div className=" fixed leftBar h-[90vh] min-w-56 mt-10 ml-14 mr-4 border-0 rounded-2xl  bg-white dark:bg-[#333] border-undido-oscuro-unmutable">
+        <div className="inline lg:fixed leftBar h-[90vh] min-w-56 mt-5 ml-14 mr-4 border-0 rounded-2xl  bg-white dark:bg-[#333] border-undido-oscuro-unmutable">
             <Languaje />
             <div className="fotoYnombre flex flex-col justify-center items-center gap-2.5 mt-10 mb-5">
                 <Image
