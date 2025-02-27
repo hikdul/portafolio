@@ -7,21 +7,34 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fff;
+  --hwhite: #F5F5DC;
+  --hdark: #333333;
+  --background: #F5F5DC;
   --foreground: #333;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #333;
-    --foreground: #fff;
+    --background: #333333;
+    --foreground: #F5F5DC;
   }
 }
 
 body {
-  background: #333;
-  color: #fff;
+  background: --background;
+  color: --foreground;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .border-undido-oscuro-unmutable {
