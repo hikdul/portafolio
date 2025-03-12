@@ -26,15 +26,32 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for Chrome, Safari and Opera 
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+/* Hide scrollbar for IE, Edge and Firefox 
 .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge 
+    scrollbar-width: none;  /* Firefox 
+}
+*/
+
+@layer utilities {
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
 }
 
 .border-undido-oscuro-unmutable {
@@ -44,6 +61,7 @@ body {
     inset 5px 5px 20px rgba(255, 255, 255, .2),
     inset 5px 5px 10px rgba(0, 0, 0, .75);
 }
+
 .border-undido-oscuro {
   box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
     10px 10px 70px rgba(0, 0, 0, .25),
@@ -52,7 +70,7 @@ body {
     inset 5px 5px 10px rgba(0, 0, 0, .75);
 }
 
-.border-undido-oscuro:hover  {
+.border-undido-oscuro:hover {
 
   box-shadow: 5px 5px 10px rgba(0, 255, 0, .25),
     1px 1px 1px rgba(0, 255, 0, .25),
@@ -60,8 +78,8 @@ body {
 }
 
 .box-shadow-Hlink::before {
-    background: #0f0;
-    box-shadow: 0 0 5px #0f0,
+  background: #0f0;
+  box-shadow: 0 0 5px #0f0,
     0 0 6px #0f0,
     0 0 7px #0f0,
     0 0 8px #0f0,
@@ -70,32 +88,32 @@ body {
 }
 
 .box-shadow-Hlink-icon {
-    box-shadow: 5px 5px 7px rgba(0,0,0,.25),
-    inset 2px 2px 3px rgba(255,255,255,.25),
-    inset -3px -3px 5px rgba(0,0,0,.5);
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, .25),
+    inset 2px 2px 3px rgba(255, 255, 255, .25),
+    inset -3px -3px 5px rgba(0, 0, 0, .5);
 }
 
-.box-shadow-Hlink-icon::before{
-    content: '';
-    position: absolute;
-    inset: 1px;
-    background: #333;
-    border-radius: 50%;
-    box-shadow: 1px 1px 3px rgba(3,3,3,.25),
-    inset 2px 2px 3px rgba(255,255,255, .25),
-    inset -3px -3px 5px rgba(3,3,3,.5);
-    transform: scale(0.9);
-    transition: .5s;
+.box-shadow-Hlink-icon::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  background: #333;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(3, 3, 3, .25),
+    inset 2px 2px 3px rgba(255, 255, 255, .25),
+    inset -3px -3px 5px rgba(3, 3, 3, .5);
+  transform: scale(0.9);
+  transition: .5s;
 }
 
 .box-shadow-Hlink-text {
-    box-shadow: 5px 5px 7px rgba(0,0,0,.25),
-    inset -3px -3px 5px rgba(255,255,255, .25);
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, .25),
+    inset -3px -3px 5px rgba(255, 255, 255, .25);
 }
 
 
 .box-shadow-Hlink-text-active {
-    transform: #fff;
-    box-shadow: 5px 5px 7px rgba(0,0,0,.25),
-    inset -3px -3px 5px rgba(255,255,255, .25);
+  transform: #fff;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, .25),
+    inset -3px -3px 5px rgba(255, 255, 255, .25);
 }

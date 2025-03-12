@@ -7,6 +7,7 @@ import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon, XMarkIcon } from "@heroi
 import { LeftBar2 } from "@/components";
 import { hIconProps } from "@/components/navBar/interface";
 import { HLink } from "@/components/navBar/HLink";
+import React from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,19 +43,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-wrap lg:flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] `}>
-        <div className="containerPage w-full min-w-[90vw] min-h-[100vh] h-full max-w-[100vw]  no-scrollbar overflow-x-hidden p-5 gap-1 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 ">
-          <div className="">
-            <LeftBar2/>
-          </div>
-          <div className="sm:col-span-2 md:col-span-3 xl:col-span-4">
-            <div className="w-full h-[90vh] mt-5 border-undido-oscuro-unmutable rounded-2xl p-0 overflow-y-hidden ">
-              <div className="navigation relative w-full max-w-full min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl md:rounded-br-4xl rounded-tl-4xl md:rounded-tl-none rounded-tr-4xl md:rounded-tr-none">
-                {navElement && navElement.map(x => <HLink {...x} key={x.title} />)}
+        <div className="md:opacity-0 lg:opacity-100">
+          <LeftBar2 />
+        </div>
+        <div className="w-full fixed top-0 lg:w-[79vw] ">
+          <div className="w-full lg:ml-72 mt-5 border-undido-oscuro-unmutable rounded-tl-2xl rounded-tr-2xl border-0 p-10 max-h-[80vh] overflow-hidden ">
+            <div className="w-full">
+              <div>
+                rutas de despegue
               </div>
-              <div className="mt-5 pl-10 pr-5 w-full overflow-hidden overflow-y-scroll h-full">
-               {children}
+              <div>
+                hijos
               </div>
             </div>
+          </div>
+          <div className="main-h-1 lg:min-h-1.5 xl:min-h-2 fixed left-0 bottom-5 ml-72 z-50 w-full">
+            <ul className="navigation relative w-full max-w-[79vw] min-h-20 lg:min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl md:rounded-br-4xl rounded-tl-4xl md:rounded-tl-none rounded-tr-4xl md:rounded-tr-none">
+              {navElement && navElement.map(x => <HLink {...x} key={x.title} />)}
+            </ul>
           </div>
         </div>
       </body>
