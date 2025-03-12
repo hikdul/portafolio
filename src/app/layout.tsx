@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { LeftBar2 } from "@/components";
+import { LeftBar2, PageName } from "@/components";
 import { hIconProps } from "@/components/navBar/interface";
 import { HLink } from "@/components/navBar/HLink";
 
@@ -49,10 +49,10 @@ export default function RootLayout({
           <div className="sm:col-span-2 md:col-span-3 xl:col-span-4">
             <div className="w-full h-[90vh] mt-5 border-undido-oscuro-unmutable rounded-2xl p-0 overflow-y-hidden ">
               <div className="grid grid-cols-1 md:grid-cols-2 ">
-                <div className="opacity-0 md:opacity-100 flex ml-20 items-center justify-center">
-                  PAGE_NAME
+                <div className="hidden md:flex ml-20 items-center justify-center">
+                  <PageName />
                 </div>
-                <div className="navigation relative w-full max-w-full min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl rounded-tl-4xl md:rounded-tl-none rounded-tr-4xl md:rounded-tr-none">
+                <div className="navigation relative w-full max-w-full min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl rounded-tl-2xl md:rounded-tl-none rounded-tr-2xl md:rounded-tr-none md:mt-0 md:pt-0 md:top-0">
                   {navElement && navElement.map(x => <HLink {...x} key={x.title} />)}
                 </div>
               </div>
