@@ -44,15 +44,20 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-wrap lg:flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] `}>
         <div className="containerPage w-full min-w-[90vw] min-h-[100vh] h-full max-w-[100vw]  no-scrollbar overflow-x-hidden p-5 gap-1 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 ">
           <div className="">
-            <LeftBar2/>
+            <LeftBar2 />
           </div>
           <div className="sm:col-span-2 md:col-span-3 xl:col-span-4">
             <div className="w-full h-[90vh] mt-5 border-undido-oscuro-unmutable rounded-2xl p-0 overflow-y-hidden ">
-              <div className="navigation relative w-full max-w-full min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl md:rounded-br-4xl rounded-tl-4xl md:rounded-tl-none rounded-tr-4xl md:rounded-tr-none">
-                {navElement && navElement.map(x => <HLink {...x} key={x.title} />)}
+              <div className="grid grid-cols-1 md:grid-cols-2 ">
+                <div className="opacity-0 md:opacity-100 flex ml-20 items-center justify-center">
+                  PAGE_NAME
+                </div>
+                <div className="navigation relative w-full max-w-full min-h-24 flex justify-center items-center border-undido-oscuro-unmutable rounded-bl-none md:rounded-bl-4xl rounded-tl-4xl md:rounded-tl-none rounded-tr-4xl md:rounded-tr-none">
+                  {navElement && navElement.map(x => <HLink {...x} key={x.title} />)}
+                </div>
               </div>
               <div className="mt-5 pl-10 pr-5 w-full overflow-hidden overflow-y-scroll h-full">
-               {children}
+                {children}
               </div>
             </div>
           </div>
