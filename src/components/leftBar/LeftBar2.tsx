@@ -16,12 +16,12 @@ const LeftBar2 = () => {
                     width={70} 
                     height={70}
                   />
-                <h2>Hector Contreras</h2>
+                <h2 className=" text-lg lg:text-2xl ">Hector Contreras</h2>
             </div>
             <div className="datosPersonales mt-10">
                 <DataIconLB name="Age" desc="30 years old"/>
                 <DataIconLB name="Current Location" desc="Lima, Peru"/>
-                <DataIconLB name="Experience" desc="+6 Years"/>
+                <DataIconLB name="phone" desc="931084717"/>
             </div>
             <SocialNetworks />
         </div>
