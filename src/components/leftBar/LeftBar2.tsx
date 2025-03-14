@@ -36,7 +36,8 @@ const LeftBar2 = () => {
                     width={70} 
                     height={70}
                   />
-                <h2 className=" text-lg lg:text-2xl ">Hector Contreras</h2>
+                <h2 className="hidden md:block text-lg lg:text-2xl ">Hector Contreras</h2>
+                <h2 className="block md:hidden text-lg lg:text-2xl ">Hector Luis Contreras Di Girolamo</h2>
             </div>
             <div className="datosPersonales mt-10">
                 {dataFromIconLB.map(x => (<DataIconLB {...x} key={x.name} />))}
