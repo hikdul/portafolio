@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import { H1Icon, FaceSmileIcon, LightBulbIcon } from "@heroicons/react/24/outline"
+//import { H1Icon, FaceSmileIcon, LightBulbIcon } from "@heroicons/react/24/outline"
 import { cn } from "@/lib/utils";
 import { useMainStore } from "@/Store/mainStore";
 import { Lotie } from "../Lottie/Lotie";
@@ -64,7 +64,7 @@ const LeftBar = () => {
             {leftBarFullScreen && (
                 <button type="button" className="z-50" onClick={onClickButton} name="fc_01">
                     <div className="flex flex-wrap items-end justify-end absolute bottom-8 right-14 ">
-                        <LightBulbIcon className="animate-bounce duration-200 text-[#000] hover:text-green-300" />
+                        {/*<LightBulbIcon className="animate-bounce duration-200 text-[#000] hover:text-green-300" />*/}
                         scroll down
                     </div>
                 </button>

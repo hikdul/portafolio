@@ -2,8 +2,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Image from "next/image";
-import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon, XMarkIcon } from "@heroicons/react/24/outline";
+//import Image from "next/image";
+import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon } from "@heroicons/react/24/outline";
 import { LeftBar2, PageName } from "@/components";
 import { hIconProps } from "@/components/navBar/interface";
 import { HLink } from "@/components/navBar/HLink";

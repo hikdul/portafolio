@@ -78,13 +78,13 @@ body {
 }
 
 .box-shadow-Hlink::before {
-  background: #0f0;
-  box-shadow: 0 0 5px #0f0,
-    0 0 6px #0f0,
-    0 0 7px #0f0,
-    0 0 8px #0f0,
-    0 0 9px #0f0,
-    0 0 10px #0f0;
+  background: #05df72;
+  box-shadow: 0 0 5px #05df72,
+    0 0 6px #05df72,
+    0 0 7px #05df72,
+    0 0 8px #05df72,
+    0 0 9px #05df72,
+    0 0 10px #05df72;
 }
 
 .box-shadow-Hlink-icon {

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-[68vh] ">
       <div className="flex flex-col items-center justify-center m-auto w-full h-full">
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -13,7 +13,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi am a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -22,7 +22,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -31,7 +31,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -40,7 +40,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -49,7 +49,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -58,7 +58,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -67,7 +67,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -76,7 +76,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -85,7 +85,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -94,7 +94,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -103,7 +103,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -112,7 +112,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -121,7 +121,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -130,7 +130,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
@@ -139,7 +139,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
-          <p>hi I'am a software Deveploment</p>
+          <p>hi  a software Deveploment</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam corrupti iure quibusdam excepturi quidem aliquid est ipsam aspernatur, vel explicabo molestias cum officiis? Non ex error impedit eligendi laudantium!</p>
