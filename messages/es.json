@@ -1,4 +1,10 @@
 {
+    "leftBar":{
+        "age": "Edad",
+        "ageC": "años",
+        "location": "Ubicacion",
+        "phone": "Telefono"
+    },
     "MainLinks": {
         "home": "Principal",
         "projects": "Proyectos",

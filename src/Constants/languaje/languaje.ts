@@ -1,3 +1,3 @@
 
-export type languaje = 'esp' | 'ita' | 'eng'
+export type languaje = 'es' | 'it' | 'en'
 

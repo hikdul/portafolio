@@ -51,8 +51,7 @@ export default async function RootLayout({
     //locale = 'en' //?: probar si esto esta bien para  ver como funciona mejor que si no lo consigue lo mande al de ingles
     notFound()
   }
-
-
+ 
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-wrap lg:flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] `}>

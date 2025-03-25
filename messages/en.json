@@ -1,4 +1,10 @@
 {
+    "leftBar":{
+        "age": "Age",
+        "ageC": "years O.",
+        "location": "Location",
+        "phone": "Phone"
+    },
     "MainLinks": {
         "home": "Home",
         "projects": "Projects",

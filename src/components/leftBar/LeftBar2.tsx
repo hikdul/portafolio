@@ -1,27 +1,9 @@
 import Image from "next/image"
 import { SocialNetworks } from "./SocialNetworks"
-import { DataIconLB } from "./dataIconlb"
 import { LanguajeView } from "./LanguajeView"
-import { dataIconLBProps } from "./interface"
+import { GeneralData } from "./GeneralData"
 
 
-const dataFromIconLB: dataIconLBProps[] = [
-    {
-        name: "Age",
-        desc: "35 years o.",
-        icon: "age",
-    },
-    {
-        name: "location",
-        desc: "Lima, Peru",
-        icon: "location",
-    },
-    {
-        name: "phone",
-        desc: "931084717",
-        icon: "phone",
-    },
-]
 
 const LeftBar2 = () => {
 
@@ -40,7 +22,7 @@ const LeftBar2 = () => {
                 <h2 className="block md:hidden text-lg lg:text-2xl ">Hector Luis Contreras Di Girolamo</h2>
             </div>
             <div className="datosPersonales mt-10">
-                {dataFromIconLB.map(x => (<DataIconLB {...x} key={x.name} />))}
+                <GeneralData />
             </div>
             <SocialNetworks />
         </div>
