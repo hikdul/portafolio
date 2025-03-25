@@ -1,0 +1,13 @@
+{
+    "MainLinks": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About Me",
+        "blog": "blog"
+    },
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page",
+        "hikdul": "Hector Luis Contreras Di Girolamo"
+    }
+}

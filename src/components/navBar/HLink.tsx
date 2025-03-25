@@ -1,20 +1,24 @@
 "use client"
-import Link from "next/link"
+//import Link from "next/link"
+import {Link} from '@/i18n/navigation';
 import { hIconProps } from "./interface";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import { useMainStore } from "@/Store/mainStore";
+import { useTranslations } from 'next-intl';
 
 
 const HLink = ({title, icon,  to}: hIconProps) =>{
     
+    const t = useTranslations('MainLinks');
+    const texto = t(title)
     const pathName = usePathname()
     const {setCurrentPage} = useMainStore()
     const active = pathName == to
     
     return(
         <li 
-                onClick={()=> setCurrentPage(title)}
+                onClick={()=> setCurrentPage(texto)}
                 className={cn("relative list-none w-20 mx-0 my-1 before:absolute before:top-9 before:left-[50%] before:-translate-x-[200%]  before:-translate-y-0.5 before:w-2 before:h-2 before:bg-[#222] rounded-full duration-100",
                 active && "box-shadow-Hlink")}
         >
