@@ -5,16 +5,21 @@ import { hIconProps } from "./interface";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import { useMainStore } from "@/Store/mainStore";
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 
 const HLink = ({title, icon,  to}: hIconProps) =>{
     
+    //*: inter
     const t = useTranslations('MainLinks');
     const texto = t(title)
+    //*: old funcionality
     const pathName = usePathname()
     const {setCurrentPage} = useMainStore()
-    const active = pathName == to
+    //*: get the active
+    const locale = useLocale()
+    const active = pathName.replaceAll("/","").toLowerCase() === `${locale}${to}`.replaceAll("/","").toLowerCase()
+    //console.log({locale, pathName, pn: pathName.replaceAll("/","").toLowerCase() , to, to2:`${locale}${to}`.replaceAll("/","").toLowerCase(), active})
     
     return(
         <li 
@@ -23,7 +28,7 @@ const HLink = ({title, icon,  to}: hIconProps) =>{
                 active && "box-shadow-Hlink")}
         >
             <Link className="flex item-center justify-center" style={{textDecoration: "none", flexDirection: "column"}} href={to}>
-                <span className={cn("box-shadow-Hlink-icon absolute w-12 h-12 flex justify-center items-center text-white rounded-full z-10 duration-100 delay-200 hover:bg-[#0f0] ", 
+                <span className={cn("box-shadow-Hlink-icon absolute w-12 h-12 flex justify-center items-center text-white rounded-full z-10 duration-100 delay-75 hover:bg-[#0f0] ", 
                     active && "bg-[#29fd53] text-[#fff] box-shadow-Hlink-icon scale-100")}>
                         {icon}
                 </span>

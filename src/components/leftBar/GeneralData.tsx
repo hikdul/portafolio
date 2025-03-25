@@ -1,8 +1,5 @@
-import { getTranslations } from "next-intl/server"
 import { DataIconLB } from "./dataIconlb"
 import { dataIconLBProps } from "./interface"
-
-
 
 const dataFromIconLB: dataIconLBProps[] = [
     {

@@ -6,15 +6,21 @@ import Image from "next/image"
 //*: internacionalizacion
 import { useLocale } from "next-intl"
 import { useRouter,usePathname } from "@/i18n/navigation"
+import { useEffect, useState } from "react"
 
 
 const LanguajeInd = ({ icon, lang }: props) => {
 
-    const { languaje, setLanguaje } = useMainStore()
+    const { setLanguaje } = useMainStore()
     const locale = useLocale()
     const router = useRouter()
     const pathname = usePathname()
+    const [selected, setSelected]= useState<boolean>(false)
 
+    
+    useEffect(()=>{
+        setSelected(locale == lang)
+    },[lang, locale])
 
     const onClick = () => {
         if (lang == locale)
@@ -26,7 +32,7 @@ const LanguajeInd = ({ icon, lang }: props) => {
 
     return (
 
-        <Image onClick={onClick} src={icon} width={20} height={20} alt="lenguaje seleccionado" className={cn("", lang != languaje && "blur-xs")} />
+        <Image onClick={onClick} src={icon} width={20} height={20} alt="lenguaje seleccionado" className={cn("", !selected && "blur-xs")} />
     )
 }
 

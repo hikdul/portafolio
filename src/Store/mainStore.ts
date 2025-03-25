@@ -13,9 +13,9 @@ type Store = {
 const useMainStore = create<Store>()((set) => ({
   leftBarFullScreen: false,
   toogleLeftBarFullScreen: () => set((state) => ({ leftBarFullScreen: !state.leftBarFullScreen })),
-  currentPage: "Home",
+  currentPage: "Principal",
   setCurrentPage: (value:string) =>set((state) =>({ currentPage:value })),
-  languaje: "esp",
+  languaje: "es",
   setLanguaje: (value:languaje)=>set((state)=>({languaje:value})),
 
 }))
