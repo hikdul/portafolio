@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 //import Image from "next/image";
 import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon } from "@heroicons/react/24/outline";
-import { LeftBar2, PageName } from "@/components";
+import { LeftBar2, Loader, PageName } from "@/components";
 import { hIconProps } from "@/components/navBar/interface";
 import { HLink } from "@/components/navBar/HLink";
 // i18n
@@ -75,6 +75,7 @@ export default async function RootLayout({
                 </div>
               </div>
             </div>
+          <Loader/>
           </div>
         </NextIntlClientProvider>
       </body>

@@ -18,6 +18,9 @@ export default {
       verde: "#0f0",
       negro: "#333",
     },
+    background:{
+        loader: "linear-gradient(45deg, transparent, transparent 40%, #6ddb1f)",
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -39,7 +42,8 @@ export default {
             filter: "blur(25)",
             opacity: "0",
         }
-        }
+        },
+        
       },
       animation:{
         "show-content":"showContent 1.6s .5s ease-in-out forwards",
@@ -47,5 +51,6 @@ export default {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('tailwind-animation-delay')],
 } satisfies Config;
