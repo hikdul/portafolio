@@ -10,7 +10,7 @@ import { useLocale, useTranslations } from 'next-intl';
 
 const HLink = ({title, icon,  to}: hIconProps) =>{
     
-    const {setLoading} = useMainStore()
+    //const {setLoading} = useMainStore()
     //*: inter
     const t = useTranslations('MainLinks');
     const texto = t(title)

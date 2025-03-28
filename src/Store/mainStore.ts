@@ -17,12 +17,12 @@ const useMainStore = create<Store>()((set) => ({
   leftBarFullScreen: false,
   toogleLeftBarFullScreen: () => set((state) => ({ leftBarFullScreen: !state.leftBarFullScreen })),
   currentPage: "Principal",
-  setCurrentPage: (value:string) =>set((state) =>({ currentPage:value })),
+  setCurrentPage: (value:string) =>set(() =>({ currentPage:value })),
   languaje: "es",
-  setLanguaje: (value:languaje)=>set((state)=>({languaje:value})),
+  setLanguaje: (value:languaje)=>set(()=>({languaje:value})),
   loading: false,
   toggleLoading: () => set((state)=>({loading: !state.loading})),
-  setLoading: (value:boolean)=>set((state)=>({loading: value})),
+  setLoading: (value:boolean)=>set(()=>({loading: value})),
 
 }))
 
