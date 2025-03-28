@@ -1,8 +1,8 @@
 import { getTranslations } from "next-intl/server";
 
-export default function Home() {
+export default async function Home() {
 
-  const t = getTranslations('HomePage')
+  const t = await getTranslations('HomePage')
 
   return (
     <div className="min-h-[68vh] ">
