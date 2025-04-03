@@ -1,4 +1,6 @@
-import {FaMapLocation, FaGrav, FaPhone , FaGithub, FaLinkedin, FaFileArrowDown  } from "react-icons/fa6";
+import {FaMapLocation, FaGrav, FaPhone , FaGithub, FaLinkedin, FaFileArrowDown, FaAws  } from "react-icons/fa6";
+
+import {DiDotnet, DiJsBadge, DiPython, DiRust, DiNodejs, DiReact, DiAws, DiRasberryPi } from "react-icons/di"
 
 const iconMap = {
     location: FaMapLocation,
@@ -6,8 +8,20 @@ const iconMap = {
     phone: FaPhone,
     github: FaGithub,
     lid:FaLinkedin ,
-    cv:FaFileArrowDown
-    
+    cv:FaFileArrowDown,
+    dotnet: DiDotnet,
+    csharp: DiDotnet, //?
+    node: DiNodejs,
+    react: DiReact,
+    next: DiNodejs, //?
+    nest: DiNodejs, //?
+    js: DiJsBadge,
+    ts: DiJsBadge, //?
+    python: DiPython,
+    rust: DiRust,
+    aws: FaAws,
+    vercel: DiAws, //?
+    rasberry:DiRasberryPi,
 }
 
 type iconName = keyof typeof iconMap

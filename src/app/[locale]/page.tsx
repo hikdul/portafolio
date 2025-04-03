@@ -28,11 +28,12 @@ export default async function Home() {
       </section>
 
       <section id="trabajoYtecnologias" className="mt-12">
+        <h3 className="text-5xl underline">Areas De trabajo</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-2">
-          <CardTT title="Backend" desc="backend" tech={[".net","NodeJs", "Next"]}/>
-          <CardTT title="FrontEnd" desc="frontEnd" tech={["MVC","React"]}/>
-          <CardTT title="Clound" desc="cloud" tech={["AWS", "vercel"]}/>
-          <CardTT title="otros" desc="otros" tech={["python","rust", "js", "ts", "C#"]}/>
+          <CardTT title="Backend" desc="backend" tech={["dotnet","nodejs", "next"]}/>
+          <CardTT title="FrontEnd" desc="frontEnd" tech={["dotnet","react"]}/>
+          <CardTT title="Clound" desc="cloud" tech={["aws", "vercel"]}/>
+          <CardTT title="otros" desc="otros" tech={["python","rust", "js", "ts", "csharp"]}/>
 
         </div>
       </section>

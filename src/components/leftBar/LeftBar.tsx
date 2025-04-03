@@ -1,9 +1,7 @@
 "use client"
 import Image from "next/image";
-//import { H1Icon, FaceSmileIcon, LightBulbIcon } from "@heroicons/react/24/outline"
 import { cn } from "@/lib/utils";
 import { useMainStore } from "@/Store/mainStore";
-import { Lotie } from "../Lottie/Lotie";
 
 const LeftBar = () => {
 
@@ -52,7 +50,7 @@ const LeftBar = () => {
 
             <div className={cn("group social-networks flex flex-nowrap justify-between my-3", leftBarFullScreen && "justify-start gap-5 items-center")}>
                 <button  name="clik" className="p-3 border-undido-oscuro rounded-full" onClick={()=>{console.log('media clic')}} >
-                    <Lotie src={"/icons/sm.svg"}  />
+                    <Image src={"/icons/sm.svg"} width={40} height={40} alt={"Social Networds"} />
                 </button>
                 <button  name="clik" className="p-3 border-undido-oscuro rounded-full" onClick={()=>{console.log('media clic')}} >
                     <Image src={"/icons/x.svg"} width={40} height={40} alt={"Social Networds"}/>
