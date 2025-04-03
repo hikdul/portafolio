@@ -12,8 +12,19 @@
         "blog": "Notas"
     },
     "HomePage": {
-        "title": "Hola Mundo!",
+        "title": "Hola, soy Hector Contreras, aunque en internet me encontrarás como hikdul (pero esa es otra historia).",
+        "text1": "Soy un desarrollador de software autodidacta con varios años de experiencia creando soluciones digitales.",
+        "text2":"Mi camino en la programación comenzó con estudios formales en la Universidad de Los Andes (Venezuela), donde cursé cinco semestres de Ingeniería en Sistemas. Sin embargo, por diversas circunstancias, no terminé la carrera. Aun así, mi pasión por la tecnología nunca se detuvo.",
+        "text3":"Desde siempre, programar ha sido más que un trabajo o un estudio para mí; es un pasatiempo y una forma de entender el mundo. Me encanta crear scripts, pequeños programas y herramientas que simplifican tareas o incluso simulan comportamientos solo por curiosidad.",
+        "text4":"En 2020, justo un mes antes de que iniciara la pandemia, tuve mi primer gran salto al mundo laboral en programación. Por azares del destino, conseguí un trabajo desarrollando un proyecto en la nube basado en lo que entonces se conocía como .NET Core (ahora .NET). Desde ese momento, mi carrera tomó un rumbo más profesional, y he seguido explorando y aprendiendo nuevas tecnologías.",
         "about": "ve a la pagina de nosotros",
         "hikdul": "Hector Luis Contreras Di Girolamo"
+    },
+    "trabajoYtecnologias":{
+        "backend": "Me especializo en el desarrollo de servicios y aplicaciones que funcionan de manera independiente, gestionando conexiones con bases de datos y ejecutando tareas simultáneas. Es el área en la que más productos tengo en producción actualmente.",
+        "frontEnd": "ara mí, el frontend es la manera de dar vida a la lógica detrás de una aplicación. Me enfoco en que la interacción del usuario sea intuitiva y agradable, asegurando que la experiencia refleje el esfuerzo puesto en cada detalle.",
+        "cloud": "Principalmente trabajo con AWS, aunque en algunas ocasiones he desplegado proyectos en plataformas como Vercel o en servidores compartidos como GoDaddy y Banana Hosting, entre otros.",
+        "otros": "Esta es mi zona de exploración. Aquí incluyo sistemas embebidos, scripts diseñados para tareas semiautónomas, soluciones para IoT e incluso mi propio servidor MQTT, desarrollado en Rust como alternativa a Mosquitto."
     }
 }
+

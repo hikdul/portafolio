@@ -1,4 +1,5 @@
 import { BodyPlate } from "./BodyPlate/BodyPlate";
+import { CardTT } from "./Card/CardTT";
 import LeftBar from "./leftBar/LeftBar";
 import { LeftBar2 } from "./leftBar/LeftBar2";
 import Loader from "./Loader/Loader";
@@ -17,4 +18,5 @@ export {
     LeftBar,
     BodyPlate,
     Loader,
+    CardTT,
 }

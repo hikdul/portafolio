@@ -22,6 +22,12 @@ export default {
         loader: "linear-gradient(45deg, transparent, transparent 40%, #6ddb1f)",
     },
     extend: {
+      FontFace:{
+        fc: ['var(--font-fc)'],
+      } ,
+      fontFamily:{
+        fc: ['var(--font-fc)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

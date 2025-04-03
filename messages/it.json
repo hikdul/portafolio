@@ -1,5 +1,5 @@
 {
-    "leftBar":{
+    "leftBar": {
         "age": "Eta",
         "ageC": "anni",
         "location": "Posizione",
@@ -12,8 +12,18 @@
         "blog": "Dradi"
     },
     "HomePage": {
-        "title": "Ciao Mondo!",
+        "title": "Ciao, sono Hector Contreras, anche se su internet mi troverai come hikdul (ma questa è un'altra storia).",
+        "text1": "Sono uno sviluppatore software autodidatta con diversi anni di esperienza nella creazione di soluzioni digitali.",
+        "text2": "Il mio percorso nella programmazione è iniziato con studi formali presso l'Università delle Ande (Venezuela), dove ho completato cinque semestri di Ingegneria dei Sistemi. Tuttavia, a causa di varie circostanze, non ho terminato la laurea. Nonostante ciò, la mia passione per la tecnologia non si è mai fermata.",
+        "text3": "La programmazione è sempre stata per me più di un semplice lavoro o di un campo di studio; è un passatempo e un modo per comprendere il mondo. Adoro creare script, piccoli programmi e strumenti che semplificano i compiti o addirittura simulano comportamenti, solo per curiosità.",
+        "text4": "Nel 2020, appena un mese prima dell'inizio della pandemia, ho avuto la mia prima grande opportunità nel mondo della programmazione. Per un caso del destino, ho trovato un lavoro sviluppando un progetto basato sul cloud utilizzando quello che allora era conosciuto come .NET Core (ora .NET). Da quel momento, la mia carriera ha preso una direzione più professionale e ho continuato a esplorare e imparare nuove tecnologie.",
         "about": "Vai alla pagina chi siamo",
         "hikdul": "Hector Luis Contreras Di Girolamo"
+    },
+    "trabajoYtecnologias": {
+        "backend": "Mi specializzo nello sviluppo di servizi e applicazioni che funzionano in modo indipendente, gestendo connessioni con database ed eseguendo attività simultanee. Questa è l'area in cui attualmente ho più prodotti in produzione.",
+        "frontEnd": "Per me, il frontend è il modo di dare vita alla logica di un'applicazione. Mi concentro nel rendere l'interazione dell'utente intuitiva e piacevole, assicurandomi che l'esperienza rifletta l'impegno posto in ogni dettaglio.",
+        "cloud": "Lavoro principalmente con AWS, anche se occasionalmente ho distribuito progetti su piattaforme come Vercel o su server condivisi come GoDaddy e Banana Hosting, tra gli altri.",
+        "otros": "Questa è la mia zona di esplorazione. Qui includo sistemi embedded, script progettati per attività semi-autonome, soluzioni per l'IoT e persino il mio server MQTT, sviluppato in Rust come alternativa a Mosquitto."
     }
 }

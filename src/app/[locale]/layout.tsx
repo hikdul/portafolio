@@ -1,6 +1,5 @@
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 //import Image from "next/image";
 import { BookOpenIcon, BriefcaseIcon, H1Icon, HomeIcon } from "@heroicons/react/24/outline";
@@ -11,16 +10,8 @@ import { HLink } from "@/components/navBar/HLink";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { fira_code } from "@/lib/fonts";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "hikdul",
@@ -54,7 +45,7 @@ export default async function RootLayout({
  
   return (
     <html lang={locale}>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-wrap lg:flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] `}>
+      <body className={`${fira_code.variable} antialiased flex flex-wrap lg:flex-nowrap gap-6 dark:bg-[#333] dark:text-[#F5F5DC] `}>
         <NextIntlClientProvider>
           <div className="containerPage w-full min-w-[90vw] min-h-[100vh] h-full max-w-[100vw]  no-scrollbar overflow-x-hidden p-5 gap-1 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 ">
             <div className="">
