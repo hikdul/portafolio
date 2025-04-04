@@ -1,5 +1,6 @@
+"use client"
 import { LottiePlayer, RendererType } from 'lottie-web'
-import * as React from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 interface Props {
   src: string
@@ -9,14 +10,14 @@ interface Props {
 }
 
 const Lotie = ({ src, loop, renderer, autoplay }: Props): React.ReactNode => {
-  const ref = React.useRef<HTMLDivElement | null>(null)
-  const [lottie, setLottie] = React.useState<LottiePlayer | null>(null)
+  const ref = useRef<HTMLDivElement | null>(null)
+  const [lottie, setLottie] = useState<LottiePlayer | null>(null)
 
-  React.useEffect(() => {
+  useEffect(() => {
     import('lottie-web').then(Lottie => setLottie(Lottie.default))
   }, [])
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (lottie && ref.current) {
       const animation = lottie.loadAnimation({
         container: ref.current,

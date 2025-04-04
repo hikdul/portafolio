@@ -1,6 +1,6 @@
-import { CardTT } from "@/components";
-import { DynamicIcon } from "@/components/DynamicIcon/DynamicIcon";
-import { getTranslations } from "next-intl/server";
+import {CardTT} from "@/components";
+import {DynamicIcon} from "@/components/DynamicIcon/DynamicIcon";
+import {getTranslations} from "next-intl/server";
 import Image from "next/image";
 
 export default async function Home() {
@@ -13,7 +13,7 @@ export default async function Home() {
         <div className="flex flex-row gap-2 items-center justify-center m-auto w-full h-full">
           <Image
             className=""
-            src="/img/face_chibi.png"
+            src="/img/face_chibi.jpeg"
             alt="foto personal"
             width={300}
             height={300}

@@ -1,4 +1,3 @@
-import { JSX } from "react"
 
 interface leftBarProps
 {
