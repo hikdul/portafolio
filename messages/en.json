@@ -54,6 +54,9 @@
         "backend": "I specialize in developing services and applications that operate independently, managing database connections and executing concurrent tasks. This is the area where I currently have the most products in production.",
         "frontEnd": "For me, the frontend is the way to bring an application's logic to life. I focus on making user interaction intuitive and pleasant, ensuring that the experience reflects the effort put into every detail.",
         "cloud": "I primarily work with AWS, although I have occasionally deployed projects on platforms like Vercel or shared servers such as GoDaddy and Banana Hosting, among others.",
-        "otros": "This is my exploration zone. Here, I include embedded systems, scripts designed for semi-autonomous tasks, IoT solutions, and even my own MQTT server, developed in Rust as an alternative to Mosquitto."
+        "otros": "This is my exploration zone. Here, I include embedded systems, scripts designed for semi-autonomous tasks, IoT solutions, and even my own MQTT server, developed in Rust as an alternative to Mosquitto.",
+        "asispass": "Software designed for tracking employee check-ins and attendance across various companies. It uses SOAP for communication and holds official certification for valid use issued by the government of the Republic of Chile.",
+        "trendbas": "Landing page developed for a company in the industrial automation sector. Its goal is to serve as an appealing entry point for potential clients and to enhance their digital presence.",
+        "rustquito": "MQTT broker developed in Rust, inspired by Mosquitto but with key structural differences. Intended for IoT environments, it offers greater control and customization over message flow."
     }
 }

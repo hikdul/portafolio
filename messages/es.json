@@ -1,5 +1,5 @@
 {
-    "leftBar":{
+    "leftBar": {
         "age": "Edad",
         "ageC": "años",
         "location": "Ubicacion",
@@ -14,15 +14,15 @@
     "HomePage": {
         "title": "Hola, soy Hector Contreras, aunque en internet me encontrarás como hikdul (pero esa es otra historia).",
         "text1": "Soy un desarrollador de software autodidacta con varios años de experiencia creando soluciones digitales.",
-        "text2":"Mi camino en la programación comenzó con estudios formales en la Universidad de Los Andes (Venezuela), donde cursé cinco semestres de Ingeniería en Sistemas. Sin embargo, por diversas circunstancias, no terminé la carrera. Aun así, mi pasión por la tecnología nunca se detuvo.",
-        "text3":"Desde siempre, programar ha sido más que un trabajo o un estudio para mí; es un pasatiempo y una forma de entender el mundo. Me encanta crear scripts, pequeños programas y herramientas que simplifican tareas o incluso simulan comportamientos solo por curiosidad.",
-        "text4":"En 2020, justo un mes antes de que iniciara la pandemia, tuve mi primer gran salto al mundo laboral en programación. Por azares del destino, conseguí un trabajo desarrollando un proyecto en la nube basado en lo que entonces se conocía como .NET Core (ahora .NET). Desde ese momento, mi carrera tomó un rumbo más profesional, y he seguido explorando y aprendiendo nuevas tecnologías.",
+        "text2": "Mi camino en la programación comenzó con estudios formales en la Universidad de Los Andes (Venezuela), donde cursé cinco semestres de Ingeniería en Sistemas. Sin embargo, por diversas circunstancias, no terminé la carrera. Aun así, mi pasión por la tecnología nunca se detuvo.",
+        "text3": "Desde siempre, programar ha sido más que un trabajo o un estudio para mí; es un pasatiempo y una forma de entender el mundo. Me encanta crear scripts, pequeños programas y herramientas que simplifican tareas o incluso simulan comportamientos solo por curiosidad.",
+        "text4": "En 2020, justo un mes antes de que iniciara la pandemia, tuve mi primer gran salto al mundo laboral en programación. Por azares del destino, conseguí un trabajo desarrollando un proyecto en la nube basado en lo que entonces se conocía como .NET Core (ahora .NET). Desde ese momento, mi carrera tomó un rumbo más profesional, y he seguido explorando y aprendiendo nuevas tecnologías.",
         "about": "ve a la pagina de nosotros",
         "hikdul": "Hector Luis Contreras Di Girolamo",
-        "dotnet0":"marcaron mi entrada al mundo laboral como desarrollador, por lo que les tengo un aprecio especial.",
-        "dotnet1":"Principalmente, utilizo este framework para desarrollar el backend de diversos servicios, aprovechando su solidez, escalabilidad y el amplio ecosistema que lo respalda. Además, lo empleo en el frontend mediante el modelo MVC de .NET, lo que me permite construir aplicaciones estructuradas, limpias y mantenibles.",
-        "dotnet2":"También recurro a C# para crear scripts de utilidad general y para interactuar con distintos dispositivos. Su versatilidad me ha permitido desarrollar soluciones en áreas como IoT, así como establecer conexiones con hardware como Raspberry Pi, entre otros. Una de las cosas que más disfruto de trabajar con C# es lo intuitivo que resulta implementar tareas concurrentes y paralelismo, lo cual es especialmente útil en servicios que requieren procesos recurrentes o simultáneos.",
-        "dotnet3":"En conjunto, .NET y C# forman una base sólida y flexible que me permite abordar proyectos de distintas escalas, desde herramientas pequeñas hasta sistemas más complejos.",
+        "dotnet0": "marcaron mi entrada al mundo laboral como desarrollador, por lo que les tengo un aprecio especial.",
+        "dotnet1": "Principalmente, utilizo este framework para desarrollar el backend de diversos servicios, aprovechando su solidez, escalabilidad y el amplio ecosistema que lo respalda. Además, lo empleo en el frontend mediante el modelo MVC de .NET, lo que me permite construir aplicaciones estructuradas, limpias y mantenibles.",
+        "dotnet2": "También recurro a C# para crear scripts de utilidad general y para interactuar con distintos dispositivos. Su versatilidad me ha permitido desarrollar soluciones en áreas como IoT, así como establecer conexiones con hardware como Raspberry Pi, entre otros. Una de las cosas que más disfruto de trabajar con C# es lo intuitivo que resulta implementar tareas concurrentes y paralelismo, lo cual es especialmente útil en servicios que requieren procesos recurrentes o simultáneos.",
+        "dotnet3": "En conjunto, .NET y C# forman una base sólida y flexible que me permite abordar proyectos de distintas escalas, desde herramientas pequeñas hasta sistemas más complejos.",
         "js0": "es una pieza clave dentro de mi stack tecnológico, ya que lo utilizo tanto en el backend como en el frontend, adaptándolo según las necesidades del proyecto.",
         "js1": " Principalmente trabajo con",
         "js2": ", utilizando frameworks como",
@@ -36,26 +36,27 @@
         "js10": " y ",
         "js11": "A nivel personal, prefiero trabajar con ",
         "js12": ", ya que su tipado estricto proporciona un mayor control sobre el código, facilitando el mantenimiento y escalabilidad de los proyectos a medida que crecen.",
-        "py0":"es un lenguaje que está presente en casi todos los entornos del desarrollo moderno, y destaca por su simplicidad, legibilidad y versatilidad.",
-        "py1":"En mi caso, lo utilizo principalmente para",
-        "py2":"y crear scripts para procesos que no requieren un alto nivel de complejidad o control estricto. Gracias a su naturaleza flexible, es ideal para resolver rápidamente tareas generales o prototipar funcionalidades.",
-        "py3":" Además, encuentro en Python una excelente herramienta para introducir a nuevas personas al mundo de la programación. Su curva de aprendizaje amigable permite enfocarse en la lógica sin distraerse con detalles sintácticos, facilitando su participación temprana en proyectos reales.",
-        "py4":" Por esta razón, muchos de mis servicios y soluciones comienzan desarrollándose en Python durante su fase inicial. Sin embargo, a medida que los proyectos maduran y exigen mayor robustez, escalabilidad o control, suelo migrarlos a otros lenguajes más estructurados, como ",
+        "py0": "es un lenguaje que está presente en casi todos los entornos del desarrollo moderno, y destaca por su simplicidad, legibilidad y versatilidad.",
+        "py1": "En mi caso, lo utilizo principalmente para",
+        "py2": "y crear scripts para procesos que no requieren un alto nivel de complejidad o control estricto. Gracias a su naturaleza flexible, es ideal para resolver rápidamente tareas generales o prototipar funcionalidades.",
+        "py3": " Además, encuentro en Python una excelente herramienta para introducir a nuevas personas al mundo de la programación. Su curva de aprendizaje amigable permite enfocarse en la lógica sin distraerse con detalles sintácticos, facilitando su participación temprana en proyectos reales.",
+        "py4": " Por esta razón, muchos de mis servicios y soluciones comienzan desarrollándose en Python durante su fase inicial. Sin embargo, a medida que los proyectos maduran y exigen mayor robustez, escalabilidad o control, suelo migrarlos a otros lenguajes más estructurados, como ",
         "py5": " o ",
-        "rpi0":"La posibilidad de contar con un",
-        "rpi1":"como la Raspberry Pi, equipado con salidas",
-        "rpi2":", me permite conectar fácilmente el mundo físico con el digital. Su versatilidad la convierte en una herramienta ideal para desarrollar soluciones personalizadas que interactúan directamente con sensores, actuadores y otros dispositivos.",
-        "rpi3":"Actualmente tengo varias implementaciones funcionando desde estos equipos, y sigo explorando nuevos casos de uso que integren software y hardware de forma eficiente.",
-        "rpi4":"Paralelamente, estoy iniciando pruebas con ",
-        "rpi5":"buscando replicar parte de estas funcionalidades con un enfoque más económico.",
+        "rpi0": "La posibilidad de contar con un",
+        "rpi1": "como la Raspberry Pi, equipado con salidas",
+        "rpi2": ", me permite conectar fácilmente el mundo físico con el digital. Su versatilidad la convierte en una herramienta ideal para desarrollar soluciones personalizadas que interactúan directamente con sensores, actuadores y otros dispositivos.",
+        "rpi3": "Actualmente tengo varias implementaciones funcionando desde estos equipos, y sigo explorando nuevos casos de uso que integren software y hardware de forma eficiente.",
+        "rpi4": "Paralelamente, estoy iniciando pruebas con ",
+        "rpi5": "buscando replicar parte de estas funcionalidades con un enfoque más económico.",
         "rpi6": "Mientras alguien lee estas líneas, probablemente ya esté soldando pines o reiniciando firmware en uno de estos chips."
-              
     },
-    "trabajoYtecnologias":{
+    "trabajoYtecnologias": {
         "backend": "Me especializo en el desarrollo de servicios y aplicaciones que funcionan de manera independiente, gestionando conexiones con bases de datos y ejecutando tareas simultáneas. Es el área en la que más productos tengo en producción actualmente.",
         "frontEnd": "ara mí, el frontend es la manera de dar vida a la lógica detrás de una aplicación. Me enfoco en que la interacción del usuario sea intuitiva y agradable, asegurando que la experiencia refleje el esfuerzo puesto en cada detalle.",
         "cloud": "Principalmente trabajo con AWS, aunque en algunas ocasiones he desplegado proyectos en plataformas como Vercel o en servidores compartidos como GoDaddy y Banana Hosting, entre otros.",
-        "otros": "Esta es mi zona de exploración. Aquí incluyo sistemas embebidos, scripts diseñados para tareas semiautónomas, soluciones para IoT e incluso mi propio servidor MQTT, desarrollado en Rust como alternativa a Mosquitto."
+        "otros": "Esta es mi zona de exploración. Aquí incluyo sistemas embebidos, scripts diseñados para tareas semiautónomas, soluciones para IoT e incluso mi propio servidor MQTT, desarrollado en Rust como alternativa a Mosquitto.",
+        "asispass": "Software diseñado para el control de marcaciones y asistencia del personal en distintas empresas. Utiliza SOAP para su comunicación y cuenta con certificación oficial de validez de uso otorgada por el gobierno de la República de Chile.",
+        "trendbas": "Landing page desarrollada para una empresa del sector de automatización industrial. Su objetivo es servir como punto de entrada atractivo para potenciales clientes y mejorar su presencia digital.",
+        "rustquito": "Broker MQTT desarrollado en Rust, inspirado en Mosquitto pero con diferencias estructurales clave. Pensado para entornos de IoT, ofrece mayor control y personalización sobre el flujo de mensajes."
     }
 }
-

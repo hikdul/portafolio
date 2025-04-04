@@ -6,7 +6,9 @@ import Image from "next/image";
 interface areasTrabProps {
   title: string
   desc: string
-  tech: string[]
+  tech?: string[]
+  imgUrl?: string
+  urlTo?: string
 }
 
 const areasTrabajoData: areasTrabProps[] = [
@@ -14,6 +16,12 @@ const areasTrabajoData: areasTrabProps[] = [
   { title: "FrontEnd", desc: "frontEnd", tech: ["dotnet", "react"] },
   { title: "Clound", desc: "cloud", tech: ["aws", "vercel"] },
   { title: "otros", desc: "otros", tech: ["csharp", "python", "js", "rust", "rasberry"] }
+]
+
+const proyectosMuestraData: areasTrabProps[]=[
+  { title: "Rusquito", desc: "rustquito", imgUrl: 'https://asispass.com/img/logo.png', urlTo:'https://github.com/hikdul/rusquito'  },
+  { title: "Trendbas", desc: "trendbas",  imgUrl: 'https://trendbas.com/img/logo.svg', urlTo:'trendbas.com'},
+  { title: "AsisPass", desc: "asispass",  imgUrl: 'https://asispass.com/img/logo.png', urlTo:'asispass.com'}
 ]
 
 
@@ -128,7 +136,10 @@ export default async function Home() {
         </CardIT>
       </section>
       <section id="interesesYEspecializacion" className="mt-12">
-        <p>Hablar de algunos proyectos en los que trabaje || trabajo</p>
+        <h3 className="text-5xl underline my-10">Algunos de mis trabajos</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          {proyectosMuestraData && proyectosMuestraData.map(x => <CardTT {...x} key={x.title} />)}
+        </div>
       </section>
       <div className="mt-20 min-h-[30vh]"></div>
     </div>
