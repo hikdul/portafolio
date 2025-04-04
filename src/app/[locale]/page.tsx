@@ -54,61 +54,81 @@ export default async function Home() {
         <CardIT icon="dotnet" >
           <article>
             <p>
-              <BoldTextSlow text=".NET" /> y <BoldTextSlow text="C#" /> marcaron mi entrada al mundo laboral como desarrollador, por lo que les tengo un aprecio especial.
+              <BoldTextSlow text=".NET" /> y <BoldTextSlow text="C#" /> {t('dotnet0')}
             </p>
             <p>
-              Principalmente, utilizo este framework para desarrollar el backend de diversos servicios, aprovechando su solidez y escalabilidad. Además, también lo empleo en el frontend mediante el modelo MVC de .NET, lo que me permite construir aplicaciones estructuradas y eficientes.
+              {t('dotnet1')}
             </p>
             <p>
-              También utilizo C# para generar scripts de utilidad general y trabajar con distintos dispositivos. Gracias a su versatilidad, puedo desarrollar soluciones para diversas áreas, como IoT y conexiones con dispositivos como Raspberry Pi, entre otros.
+              {t('dotnet2')}
+            </p>
+            <p>
+              {t('dotnet3')}
             </p>
           </article>
+
         </CardIT>
 
 
         <CardIT icon="js" >
           <article>
             <p>
-              <b>JavaScript</b> es una pieza clave dentro de mi stack tecnológico, y lo utilizo en distintos contextos según sea más conveniente
+              <BoldTextSlow text="JavaScript" /> {t('js0')} 
             </p>
             <ul className="">
               <li className="ml-3 lg:ml-10 list-disc">
-                <BoldTextSlow text="Backend:" /> Mayormente trabajo con el framework NestJS, ya que me ofrece múltiples opciones de manera rápida y estructurada. También lo utilizo para desarrollar aplicaciones que requieren sockets o streaming, aprovechando su capacidad para manejar conexiones en tiempo real de forma eficiente.
+                <BoldTextSlow text="Backend:" /> {t('js1')} <BoldTextSlow text="Node.js" />, {t('js2')} <BoldTextSlow text="NestJS" />{t('js3')} <BoldTextSlow text="WebSockets" /> {t('js4')} <BoldTextSlow text="streaming" />, {t('js5')}
               </li>
               <li className="ml-3 lg:ml-10 list-disc">
-                <BoldTextSlow text="Frontend:" /> Aunque de manera indirecta, uso Node.js como parte del ecosistema de <b>React</b>, una librería que empleo con frecuencia.
+                <BoldTextSlow text="Frontend:" /> {t('js6')} <BoldTextSlow text="React" /> {t('js7')} <BoldTextSlow text="Next.js" />{t('js10')}<BoldTextSlow text="Vite" />{t('js8')}
               </li>
               <li className="ml-3 lg:ml-10 list-disc">
-                <BoldTextSlow text="Scripts:" /> También desarrollo scripts, especialmente cuando se trata de conectividad web o tareas simples que implican el envío o la obtención de pequeños paquetes de datos. Son útiles para automatizar procesos ligeros o resolver necesidades puntuales de forma rápida y eficiente.
+                <BoldTextSlow text="Scripts:" />  {t('js9')}
               </li>
             </ul>
             <p>
-              En lo particular me encanta trabajar con TypeScript, ya que el tipado estricto me entrega una forma de control que apoya mucho al mantenimiento cuando los sistemas crecen.
+              {t('js11')} <BoldTextSlow text="TypeScript" />{t('js12')}
             </p>
           </article>
+
         </CardIT>
 
         <CardIT icon="python" >
           <article>
             <p>
-              <BoldTextSlow text="Python" /> es un lenguaje que está en todas partes y destaca por su simplicidad y versatilidad.
-               En mi caso, lo utilizo principalmente para <b>automatizar tareas</b> y desarrollar scripts para procesos que no requieren alta complejidad o manejo de elementos críticos. Su facilidad de uso lo convierte en una excelente opción para completar actividades generales de manera rápida y eficiente.
+              <BoldTextSlow text="Python" /> {t('py0')}
+            </p>
+            <p>
+              {t('py1')} <BoldTextSlow text="automatizar tareas" /> {t('py2')}
+            </p>
+            <p>
+              {t('py3')}
+            </p>
+            <p>
+              {t('py4')}
+              Por esta razón, muchos de mis servicios y soluciones comienzan desarrollándose en Python durante su fase inicial. Sin embargo, a medida que los proyectos maduran y exigen mayor robustez, escalabilidad o control, suelo migrarlos a otros lenguajes más estructurados, como <BoldTextSlow text="C#"/>{t('py5')}<BoldTextSlow text="TypeScript"/>.
             </p>
           </article>
+
         </CardIT>
         <CardIT icon="rasberry" >
           <article>
-            <p>Particularmente la posibilidad de tener un <BoldTextSlow text="micro computador"/> con las salidos del GPIO para poder manipular y trabajar con otros dispositivos creando conexiones sencillas entre elementos fisicos y software es el principal objetivo por el que uso este dispositivo.</p>
-            <p>Actualmente estoy generando pruebas con dispositivos basados en <BoldTextSlow text="ESP-32"/> para buscar generar las mismas tareas con menor costo.</p>
+            <p>
+              {t('rpi0')} <BoldTextSlow text="microcomputador " />{t('rpi1')} <BoldTextSlow text="GPIO" />{t('rpi2')}
+            </p>
+            <p>
+              {t('rpi3')}
+            </p>
+            <p>
+              {t('rpi4')} <BoldTextSlow text="ESP-32 " />{t('rpi5')}
+            </p>
+            <span className="text-sm group-hover:underline font-light">{t('rpi6')}</span>
           </article>
+
         </CardIT>
       </section>
       <section id="interesesYEspecializacion" className="mt-12">
         <p>Hablar de algunos proyectos en los que trabaje || trabajo</p>
-      </section>
-      <section id="lema" className="mt-12">
-        <p>tener un lema o algun(os) mensaje(s) que tenga un trabajo en textos atractivos al final de la pagina para agregar un uso de los detalles</p>
-        <p>puede ser una lista de frases que aparescan como si se escribieran y luego se borren y escriban otra y asi.</p>
       </section>
       <div className="mt-20 min-h-[30vh]"></div>
     </div>

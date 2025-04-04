@@ -23,8 +23,7 @@ const  GeneralData = async() =>{
 
 
     return(<>
-
-                {dataFromIconLB.map(x => (<DataIconLB {...x} key={x.name} />))}
+        {dataFromIconLB.map(x => (<DataIconLB {...x} key={x.name} />))}
     </>)
 }
 
