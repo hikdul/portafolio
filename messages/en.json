@@ -48,7 +48,8 @@
         "rpi3": "I currently have several implementations running on these devices, and I continue exploring new use cases that integrate software and hardware efficiently.",
         "rpi4": "At the same time, I’m starting tests with",
         "rpi5": "aiming to replicate some of these functionalities with a more economical approach.",
-        "rpi6": "While someone reads these lines, I'm probably already soldering pins or restarting firmware on one of these chips."
+        "rpi6": "While someone reads these lines, I'm probably already soldering pins or restarting firmware on one of these chips.",
+        "seePort":"see portfolio"
     },
     "trabajoYtecnologias": {
         "backend": "I specialize in developing services and applications that operate independently, managing database connections and executing concurrent tasks. This is the area where I currently have the most products in production.",

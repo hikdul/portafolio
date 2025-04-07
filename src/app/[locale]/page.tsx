@@ -1,6 +1,8 @@
 import { BoldTextSlow, CardIT, CardTT } from "@/components";
 import { getTranslations } from "next-intl/server";
+import {FaArrowRightLong, FaBriefcase} from 'react-icons/fa6'
 import Image from "next/image";
+import Link from "next/link";
 
 
 interface areasTrabProps {
@@ -20,8 +22,8 @@ const areasTrabajoData: areasTrabProps[] = [
 
 const proyectosMuestraData: areasTrabProps[]=[
   { title: "Rusquito", desc: "rustquito", imgUrl: 'https://asispass.com/img/logo.png', urlTo:'https://github.com/hikdul/rusquito'  },
-  { title: "Trendbas", desc: "trendbas",  imgUrl: 'https://trendbas.com/img/logo.svg', urlTo:'trendbas.com'},
-  { title: "AsisPass", desc: "asispass",  imgUrl: 'https://asispass.com/img/logo.png', urlTo:'asispass.com'}
+  { title: "Trendbas", desc: "trendbas",  imgUrl: 'https://trendbas.com/img/logo.svg', urlTo:'https://trendbas.com'},
+  { title: "AsisPass", desc: "asispass",  imgUrl: 'https://asispass.com/img/logo.png', urlTo:'https://asispass.com'}
 ]
 
 
@@ -139,6 +141,13 @@ export default async function Home() {
         <h3 className="text-5xl underline my-10">Algunos de mis trabajos</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           {proyectosMuestraData && proyectosMuestraData.map(x => <CardTT {...x} key={x.title} />)}
+        </div>
+        <div className=" group mt-3 w-full h-full flex justify-center items-center mb-0">
+          <Link className="bg-green-400 text-white group-hover:text-[#333] p-1 rounded w-full flex justify-center items-center hover:bg-green-300" href={"/Proyectos"}   >
+            <div className="flex gap-1 items-center ">
+              {t('seePort')} <FaArrowRightLong  /> <FaBriefcase  className="group-hover:text-2xl"/>
+            </div>
+          </Link>
         </div>
       </section>
       <div className="mt-20 min-h-[30vh]"></div>
