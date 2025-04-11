@@ -5,6 +5,7 @@ import Image from "next/image"
 import { useState } from "react"
 import { DynamicIcon, iconName } from "../DynamicIcon/DynamicIcon"
 import ReactMarkdown from 'react-markdown';
+import Link from "next/link"
 //import { useState } from "react"
 
 interface props {
@@ -15,6 +16,8 @@ interface props {
     inicio: Date
     fin?: Date
     tech: iconName[]
+    url?: string
+    github?: string
 }
 
 
@@ -24,7 +27,7 @@ const getDateTime = (dat?: Date): string => {
     return `${dat.getDate()}/${dat.getMonth()}/${dat.getFullYear()}`
 }
 
-const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech }: props) => {
+const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech, url, github }: props) => {
 
     const [expand, setExpand] = useState<boolean>(false)
     const [loading, setLoading] = useState<boolean>(false)
@@ -35,9 +38,9 @@ const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech }: p
         setExpand(!expand)
         setLoading(false)
     }
-    
-    const open = () =>{
-        if(!expand)
+
+    const open = () => {
+        if (!expand)
             setExpand(true)
     }
 
@@ -65,7 +68,7 @@ const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech }: p
 
                         </div>
 
-                        <div className={cn("flex justify-end opacity-100 z-50",expand && "opacity-0")}>
+                        <div className={cn("flex justify-end opacity-100 z-50", expand && "opacity-0")}>
                             <button className="text-green-400 hover:text-green-300 duration-700" onClick={toggle}>
                                 + see more...
                             </button>
@@ -75,8 +78,22 @@ const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech }: p
                         </div>
                     </div>
                 </div>
-                <div className={cn("tech opacity-0 flex flex-row  duration-500", expand && "opacity-100 mb-10 mt-5")}>
-                    {tech && tech.map(t => <DynamicIcon key={t.toString()} name={t} className="block sm:hidden lg:block text-5xl text-[#333] bg-white p-1 ml-10 md:ml-3 group-hover:text-green-400 dark:hover:text-white self-center border-1 rounded border-[#333] group-hover:bg-white  group-hover:border-green-400 group-hover:dark:text-white group-hover:dark:bg-[#333] duration-500   " />)}
+                <div className={cn("tech opacity-0 flex flex-row justify-between  duration-500", expand && "opacity-100 mb-10 mt-5")}>
+                    <div className="flex flex-row items-start">
+                        {tech && tech.map(t => <DynamicIcon key={t.toString()} name={t} className="block sm:hidden lg:block text-5xl text-[#333] bg-white p-1 ml-10 md:ml-3 group-hover:text-green-400 dark:hover:text-white self-center border-1 rounded border-[#333] group-hover:bg-white  group-hover:border-green-400 group-hover:dark:text-white group-hover:dark:bg-[#333] duration-500" />)}
+                    </div>
+                    <div className="flex flex-rov items-end">
+                        {github && (
+                            <Link target="_blank" href={github}>
+                                <DynamicIcon name="github" className="block hover:text-green-200 sm:hidden lg:block text-5xl text-[#333] bg-white p-1 ml-10 md:ml-3 group-hover:text-green-400 dark:hover:text-white self-center border-1 rounded border-[#333] group-hover:bg-white  group-hover:border-green-400 group-hover:dark:text-white group-hover:dark:bg-[#333] duration-500" />
+                            </Link>
+                        )}
+                        {url && (
+                            <Link target="_blank" href={url}>
+                                <DynamicIcon name="web" className="block hover:text-green-200 sm:hidden lg:block text-5xl text-[#333] bg-white p-1 ml-10 md:ml-3 group-hover:text-green-400 dark:hover:text-white self-center border-1 rounded border-[#333] group-hover:bg-white  group-hover:border-green-400 group-hover:dark:text-white group-hover:dark:bg-[#333] duration-500" />
+                            </Link>
+                        )}
+                    </div>
                 </div>
                 <div className={cn("desc_long opacity-0 font-light group-hover:font-medium duration-500", expand && "opacity-100")}>
                     <ReactMarkdown>{desc_long.trim()}</ReactMarkdown>

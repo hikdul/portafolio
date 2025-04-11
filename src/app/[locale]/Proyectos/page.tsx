@@ -9,6 +9,8 @@ const proyectos:{
     inicio: Date
     fin?: Date
     tech: iconName[]
+    url?: string
+    github?: string
 }[] = [
     {
         title:"Trendbas",
@@ -19,20 +21,24 @@ const proyectos:{
         tech:[ 'react', 'next','ts'],
         desc_long: `### Titulo 
 __el siguiente:__ es un ejemplo de como se trabajaria un markdown, aca viene a aparecer mas texto y acontinuacion una imagen
-         `
+         `,
+         url: 'https://trendbas.com/'
        
     },{
-        title:"Trendbas, Landing Page",
+        title:"portafolio",
         desc_short:"Pagina de presentacion de productos para la empresa trendbas.",
         img:"/img/trendbas.png", 
         inicio: new Date(20,12,2024),
         fin : new Date(11,12,2024),
         tech:[ 'react', 'next','ts'],
         desc_long: `
-> el siguiente es un ejemplo de como se trabajaria un markdown
+literal es el codigo sobre el que estamos trabajando en este momento o el que estas viendo pues de aqui es donde parte todo
 #### este es un titulo
-aca viene a aparecer mas texto y acontinuacion una imagen
-         `
+aca viene a aparecer mas texto y acontinuacion una ***imagen***
+![img](/img/trendbas.png)
+         `,
+         url: 'https://portafolio-hikdul.vercel.app',
+         github: 'https://github.com/hikdul/portafolio'
        
     },
     {

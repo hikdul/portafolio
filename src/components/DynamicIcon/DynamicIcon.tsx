@@ -1,4 +1,4 @@
-import { FaMapLocation, FaGrav, FaPhone, FaGithub, FaLinkedin, FaFileArrowDown, FaAws, FaServer } from "react-icons/fa6";
+import { FaMapLocation, FaGrav, FaPhone, FaGithub, FaLinkedin, FaFileArrowDown, FaAws, FaServer, FaGlobe } from "react-icons/fa6";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript } from "react-icons/bi";
 import { CgVercel } from "react-icons/cg";
@@ -30,6 +30,7 @@ const iconMap = {
     vercel: CgVercel,
     server: FaServer,
     rasberry: DiRasberryPi,
+    web: FaGlobe,
 }
 
 type iconName = keyof typeof iconMap
