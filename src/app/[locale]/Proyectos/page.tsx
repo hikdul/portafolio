@@ -1,50 +1,64 @@
 import { ProjectCard } from "@/components";
-import { technologies } from "@/Constants";
+import { iconName } from "@/components/DynamicIcon/DynamicIcon";
 
 const proyectos:{
     title: string
     desc_short: string
-    desc_long: string
+    desc_long: string 
     img: string
     inicio: Date
     fin?: Date
-    tech: technologies[]
+    tech: iconName[]
 }[] = [
     {
-        title:"Trendbas, Landing Page",
+        title:"Trendbas",
         desc_short:"Pagina de presentacion de productos para la empresa trendbas.",
-        desc_long:"En este  proyecto muestro un clasico landing con ideas bastantes concretas donde se logra mostrar la realidad de lo que se espresa para esta empresa",
-        img:"https://trendbas.com/img/logo.svg", 
+        img:"/img/trendbas.png", 
         inicio: new Date(20,12,2024),
         fin : new Date(11,12,2024),
-        tech:['react', 'next','ts'],
+        tech:[ 'react', 'next','ts'],
+        desc_long: `### Titulo 
+__el siguiente:__ es un ejemplo de como se trabajaria un markdown, aca viene a aparecer mas texto y acontinuacion una imagen
+         `
+       
+    },{
+        title:"Trendbas, Landing Page",
+        desc_short:"Pagina de presentacion de productos para la empresa trendbas.",
+        img:"/img/trendbas.png", 
+        inicio: new Date(20,12,2024),
+        fin : new Date(11,12,2024),
+        tech:[ 'react', 'next','ts'],
+        desc_long: `
+> el siguiente es un ejemplo de como se trabajaria un markdown
+#### este es un titulo
+aca viene a aparecer mas texto y acontinuacion una imagen
+         `
+       
     },
     {
         title:"Asispass",
         desc_short:"Manejador  de marcaciones y tiempos de operacion y laborabilidad para multiples empresas",
-        desc_long:"este SAAS, esta cubierto por dos normativas de aceptacion del gobierno chileno y donde actualmente operan bajo 2 normal de aprobacion y bueno la verdad es que necesito mejorar tanto la redacion como la carga de datos segun el idioma.",
-        img:"https://asispass.com/img/logo.png", 
+        img:"/img/asispass.png", 
         inicio: new Date(20,12,2024),
-        tech:['dotnet', 'csharp'],
-    },
-    {
-        title:"Asispass cpy",
-        desc_short:"Manejador  de marcaciones y tiempos de operacion y laborabilidad para multiples empresas",
-        desc_long:"este SAAS, esta cubierto por dos normativas de aceptacion del gobierno chileno y donde actualmente operan bajo 2 normal de aprobacion y bueno la verdad es que necesito mejorar tanto la redacion como la carga de datos segun el idioma.",
-        img:"https://asispass.com/img/logo.png", 
-        inicio: new Date(20,12,2024),
-        tech:['dotnet', 'csharp'],
+        tech:['dotnet','csharp', 'aws'],
+        desc_long:`este SAAS, esta cubierto por dos normativas de aceptacion del gobierno chileno y donde actualmente operan bajo 2 normal de aprobacion y bueno la verdad es que necesito mejorar tanto la redacion como la carga de datos segun el idioma.
+la linea anterior  se ve mal
+***title***`
     }
+    
 ]
 
 
-export default function Proyectos() {
+export default async function Proyectos() {
+    
+    
     return(
-            <div>
+        <>
+            <div className="grid grid-cols-2 gap-x-5 gap-y-1">
                 {proyectos && proyectos.map(x => <ProjectCard key={x.title} {...x} />)}
-                <div className="emptyArea mt-20 min-h-[10vh]"></div>
             </div>
-            
+                <div className="emptyArea mt-20 min-h-[10vh]"></div>
+        </>
     )
 }
 
