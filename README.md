@@ -1,47 +1,55 @@
+# 🧑‍💻 My Personal Portfolio || hikdul
 
-# Hikdul || Portafolio
+This is my personal web portfolio, built with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/), where I showcase some of my projects, skills, and contact information.
 
+> The purpose of this project is to share my work and style as a frontend developer, even though my real strength lies in backend development.
 
-este es mi portafolio, fue publicado para mostrar un poco de mi trabajo.
+---
 
+## 🚀 Technologies Used
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) – for styling
 
-## Getting Started
+---
 
-First, run the development server:
+## 📦 Local Installation
+
+If you want to run this project locally:
 
 ```bash
+git clone https://github.com/hikdul/portafolio.git
+cd portafolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Then open http://localhost:3000 in your browser. This might change, but that's usually the default.
+
+## 📁 Basic Project Structure
+```bash
+/
+├── components/      # Reusable components
+├── pages/           # Site routes (using Pages Router)
+├── public/          # Static assets (images, icons, etc.)
+├── styles/          # Global or specific styles
+├── lib/             # Helper functions or utilities
+├── app/             # (Only if using Next 13+ App Router)
+└── tsconfig.json    # TypeScript configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is covered under the usage license, which allows inspiration with credit, but prohibits direct copying or distribution of the full project without permission.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Contact
+If you'd like to know more or collaborate with me, you can reach me at:
 
-## Learn More
+Email: hikdul.lio@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
+LinkedIn: linkedin.com/in/hikdul
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Twitter/X: @hikdul
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-### Paquetes utilizados
-
-* [next-intl](https://next-intl.dev/)
+>Thanks for visiting my portfolio 😄

@@ -7,6 +7,7 @@ import { DynamicIcon, iconName } from "../DynamicIcon/DynamicIcon"
 import ReactMarkdown from 'react-markdown';
 import Link from "next/link"
 //import { useState } from "react"
+// TODO: verificar que de algun modo se entienda cuando una tarjeta esta inactiva y no activa
 
 interface props {
     title: string
