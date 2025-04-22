@@ -31,8 +31,7 @@ const LanguajeInd = ({ icon, lang }: props) => {
     }
 
     return (
-
-        <Image onClick={onClick} src={icon} width={20} height={20} alt="lenguaje seleccionado" className={cn("", !selected && "blur-xs")} />
+        <Image onClick={onClick} src={icon} width={20} height={20} alt="lenguaje seleccionado" className={cn("cursor-pointer ", !selected && "blur-xs")} />
     )
 }
 

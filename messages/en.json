@@ -1,4 +1,7 @@
 {
+    "lang":{
+        "lang":"language"
+    },
     "leftBar": {
         "age": "Age",
         "ageC": "years O.",
