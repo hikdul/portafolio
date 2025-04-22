@@ -1,4 +1,4 @@
-import { BoldTextSlow, CardIT, CardTT } from "@/components";
+import { CardTT } from "@/components";
 import { getTranslations } from "next-intl/server";
 import { FaArrowRightLong, FaBriefcase } from 'react-icons/fa6'
 import Image from "next/image";

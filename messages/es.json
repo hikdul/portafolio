@@ -49,7 +49,12 @@
         "rpi4": "Paralelamente, estoy iniciando pruebas con ",
         "rpi5": "buscando replicar parte de estas funcionalidades con un enfoque más económico.",
         "rpi6": "Mientras alguien lee estas líneas, probablemente ya esté soldando pines o reiniciando firmware en uno de estos chips.",
-        "seePort":"Ver portafolio"
+        "seePort":"Ver portafolio",
+        "rs0": "Me acerqué a",
+        "rs1": "movido por la curiosidad de explorar nuevas tecnologías, como suelo hacer ocasionalmente. Normalmente, estas exploraciones son superficiales, pero con Rust fue diferente: realmente captó mi atención.",
+        "rs2":"Es un lenguaje que me parece fascinante. Sus reglas estrictas y sus limitaciones intencionadas no solo previenen una gran cantidad de errores comunes, sino que también promueven buenas prácticas desde el inicio.",
+        "rs3":"A nivel personal, disfruto el nivel de complejidad que presenta. Puede parecer desafiante al principio, pero una vez que se comprenden sus fundamentos, trabajar con Rust se vuelve una experiencia cómoda y muy gratificante.",
+        "rs4":"Rust es ampliamente reconocido por su seguridad, rendimiento y enfoque moderno en el desarrollo de software. Por eso, aunque no es el lenguaje más común en todos los proyectos, representa un valor añadido para quienes buscan soluciones confiables y eficientes."
     },
     "trabajoYtecnologias": {
         "backend": "Me especializo en el desarrollo de servicios y aplicaciones que funcionan de manera independiente, gestionando conexiones con bases de datos y ejecutando tareas simultáneas. Es el área en la que más productos tengo en producción actualmente.",

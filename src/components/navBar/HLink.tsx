@@ -23,6 +23,7 @@ const HLink = ({title, icon,  to}: hIconProps) =>{
     //console.log({locale, pathName, pn: pathName.replaceAll("/","").toLowerCase() , to, to2:`${locale}${to}`.replaceAll("/","").toLowerCase(), active})
     const onClick = () =>{
         setCurrentPage(texto)
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
         //setLoading(true)
     }
     

@@ -41,12 +41,15 @@ const TabsTech = () => {
                     <p>
                         <BoldTextSlow text=".NET" /> y <BoldTextSlow text="C#" /> {t('dotnet0')}
                     </p>
+                    <br></br>
                     <p>
                         {t('dotnet1')}
                     </p>
+                    <br></br>
                     <p>
                         {t('dotnet2')}
                     </p>
+                    <br></br>
                     <p>
                         {t('dotnet3')}
                     </p>
@@ -68,6 +71,7 @@ const TabsTech = () => {
                             <BoldTextSlow text="Scripts:" />  {t('js9')}
                         </li>
                     </ul>
+                    <br></br>
                     <p>
                         {t('js11')} <BoldTextSlow text="TypeScript" />{t('js12')}
                     </p>
@@ -78,12 +82,15 @@ const TabsTech = () => {
                     <p>
                         <BoldTextSlow text="Python" /> {t('py0')}
                     </p>
+                    <br></br>
                     <p>
                         {t('py1')} <BoldTextSlow text="automatizar tareas" /> {t('py2')}
                     </p>
+                    <br></br>
                     <p>
                         {t('py3')}
                     </p>
+                    <br></br>
                     <p>
                         {t('py4')}
                         Por esta razón, muchos de mis servicios y soluciones comienzan desarrollándose en Python durante su fase inicial. Sin embargo, a medida que los proyectos maduran y exigen mayor robustez, escalabilidad o control, suelo migrarlos a otros lenguajes más estructurados, como <BoldTextSlow text="C#" />{t('py5')}<BoldTextSlow text="TypeScript" />.
@@ -92,16 +99,34 @@ const TabsTech = () => {
             </div>
 
             <div className={cn("content py-5 px-2 border-2 border-t-0 border-green-400 rounded-bl-lg rounded-br-lg", scAct !== 'rs' && 'hidden')}>
-                rush
+                <article>
+                    <p>
+                        {t('rs0')} <BoldTextSlow text="Rust" /> {t('rs1')}
+                    </p>
+                    <br></br>
+                    <p>
+                        {t('rs2')}
+                    </p>
+                    <br></br>
+                    <p>
+                        {t('rs3')}
+                    </p>
+                    <br></br>
+                    <p>
+                        {t('rs4')}
+                    </p>
+                </article>
             </div>
             <div className={cn("content py-5 px-2 border-2 border-t-0 border-green-400 rounded-bl-lg rounded-br-lg", scAct !== 'rasp' && 'hidden')}>
                 <article>
                     <p>
                         {t('rpi0')} <BoldTextSlow text="microcomputador " />{t('rpi1')} <BoldTextSlow text="GPIO" />{t('rpi2')}
                     </p>
+                    <br></br>
                     <p>
                         {t('rpi3')}
                     </p>
+                    <br></br>
                     <p>
                         {t('rpi4')} <BoldTextSlow text="ESP-32 " />{t('rpi5')}
                     </p>
