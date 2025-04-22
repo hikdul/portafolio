@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import {FaArrowRightLong, FaBriefcase} from 'react-icons/fa6'
 import Image from "next/image";
 import Link from "next/link";
+import TabsTech from "@/components/TabsTech/TabsTech";
 
 
 interface areasTrabProps {
@@ -61,6 +62,7 @@ export default async function Home() {
       <section id="interesesYTecnologias" className="mt-12">
 
         <h3 className="text-5xl underline my-10">Tecnologias y como las uso</h3>
+        <TabsTech/>
         <CardIT icon="dotnet" >
           <article>
             <p>

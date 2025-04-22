@@ -53,7 +53,7 @@
     },
     "trabajoYtecnologias": {
         "backend": "Me especializo en el desarrollo de servicios y aplicaciones que funcionan de manera independiente, gestionando conexiones con bases de datos y ejecutando tareas simultáneas. Es el área en la que más productos tengo en producción actualmente.",
-        "frontEnd": "ara mí, el frontend es la manera de dar vida a la lógica detrás de una aplicación. Me enfoco en que la interacción del usuario sea intuitiva y agradable, asegurando que la experiencia refleje el esfuerzo puesto en cada detalle.",
+        "frontEnd": "Para mí, el frontend es la manera de dar vida a la lógica detrás de una aplicación. Me enfoco en que la interacción del usuario sea intuitiva y agradable, asegurando que la experiencia refleje el esfuerzo puesto en cada detalle.",
         "cloud": "Principalmente trabajo con AWS, aunque en algunas ocasiones he desplegado proyectos en plataformas como Vercel o en servidores compartidos como GoDaddy y Banana Hosting, entre otros.",
         "otros": "Esta es mi zona de exploración. Aquí incluyo sistemas embebidos, scripts diseñados para tareas semiautónomas, soluciones para IoT e incluso mi propio servidor MQTT, desarrollado en Rust como alternativa a Mosquitto.",
         "asispass": "Software diseñado para el control de marcaciones y asistencia del personal en distintas empresas. Utiliza SOAP para su comunicación y cuenta con certificación oficial de validez de uso otorgada por el gobierno de la República de Chile.",
