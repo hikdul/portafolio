@@ -1,6 +1,6 @@
 import { BoldTextSlow, CardIT, CardTT } from "@/components";
 import { getTranslations } from "next-intl/server";
-import {FaArrowRightLong, FaBriefcase} from 'react-icons/fa6'
+import { FaArrowRightLong, FaBriefcase } from 'react-icons/fa6'
 import Image from "next/image";
 import Link from "next/link";
 import TabsTech from "@/components/TabsTech/TabsTech";
@@ -21,10 +21,10 @@ const areasTrabajoData: areasTrabProps[] = [
   { title: "otros", desc: "otros", tech: ["csharp", "python", "js", "rust", "rasberry"] }
 ]
 
-const proyectosMuestraData: areasTrabProps[]=[
-  { title: "Rusquito", desc: "rustquito", imgUrl: 'https://asispass.com/img/logo.png', urlTo:'https://github.com/hikdul/rusquito'  },
-  { title: "Trendbas", desc: "trendbas",  imgUrl: 'https://trendbas.com/img/logo.svg', urlTo:'https://trendbas.com'},
-  { title: "AsisPass", desc: "asispass",  imgUrl: 'https://asispass.com/img/logo.png', urlTo:'https://asispass.com'}
+const proyectosMuestraData: areasTrabProps[] = [
+  { title: "Rusquito", desc: "rustquito", imgUrl: 'https://asispass.com/img/logo.png', urlTo: 'https://github.com/hikdul/rusquito' },
+  { title: "Trendbas", desc: "trendbas", imgUrl: 'https://trendbas.com/img/logo.svg', urlTo: 'https://trendbas.com' },
+  { title: "AsisPass", desc: "asispass", imgUrl: 'https://asispass.com/img/logo.png', urlTo: 'https://asispass.com' }
 ]
 
 
@@ -60,84 +60,8 @@ export default async function Home() {
         </div>
       </section>
       <section id="interesesYTecnologias" className="mt-12">
-
         <h3 className="text-5xl underline my-10">Tecnologias y como las uso</h3>
-        <TabsTech/>
-        <CardIT icon="dotnet" >
-          <article>
-            <p>
-              <BoldTextSlow text=".NET" /> y <BoldTextSlow text="C#" /> {t('dotnet0')}
-            </p>
-            <p>
-              {t('dotnet1')}
-            </p>
-            <p>
-              {t('dotnet2')}
-            </p>
-            <p>
-              {t('dotnet3')}
-            </p>
-          </article>
-
-        </CardIT>
-
-
-        <CardIT icon="js" >
-          <article>
-            <p>
-              <BoldTextSlow text="JavaScript" /> {t('js0')} 
-            </p>
-            <ul className="">
-              <li className="ml-3 lg:ml-10 list-disc">
-                <BoldTextSlow text="Backend:" /> {t('js1')} <BoldTextSlow text="Node.js" />, {t('js2')} <BoldTextSlow text="NestJS" />{t('js3')} <BoldTextSlow text="WebSockets" /> {t('js4')} <BoldTextSlow text="streaming" />, {t('js5')}
-              </li>
-              <li className="ml-3 lg:ml-10 list-disc">
-                <BoldTextSlow text="Frontend:" /> {t('js6')} <BoldTextSlow text="React" /> {t('js7')} <BoldTextSlow text="Next.js" />{t('js10')}<BoldTextSlow text="Vite" />{t('js8')}
-              </li>
-              <li className="ml-3 lg:ml-10 list-disc">
-                <BoldTextSlow text="Scripts:" />  {t('js9')}
-              </li>
-            </ul>
-            <p>
-              {t('js11')} <BoldTextSlow text="TypeScript" />{t('js12')}
-            </p>
-          </article>
-
-        </CardIT>
-
-        <CardIT icon="python" >
-          <article>
-            <p>
-              <BoldTextSlow text="Python" /> {t('py0')}
-            </p>
-            <p>
-              {t('py1')} <BoldTextSlow text="automatizar tareas" /> {t('py2')}
-            </p>
-            <p>
-              {t('py3')}
-            </p>
-            <p>
-              {t('py4')}
-              Por esta razón, muchos de mis servicios y soluciones comienzan desarrollándose en Python durante su fase inicial. Sin embargo, a medida que los proyectos maduran y exigen mayor robustez, escalabilidad o control, suelo migrarlos a otros lenguajes más estructurados, como <BoldTextSlow text="C#"/>{t('py5')}<BoldTextSlow text="TypeScript"/>.
-            </p>
-          </article>
-
-        </CardIT>
-        <CardIT icon="rasberry" >
-          <article>
-            <p>
-              {t('rpi0')} <BoldTextSlow text="microcomputador " />{t('rpi1')} <BoldTextSlow text="GPIO" />{t('rpi2')}
-            </p>
-            <p>
-              {t('rpi3')}
-            </p>
-            <p>
-              {t('rpi4')} <BoldTextSlow text="ESP-32 " />{t('rpi5')}
-            </p>
-            <span className="text-sm group-hover:underline font-light">{t('rpi6')}</span>
-          </article>
-
-        </CardIT>
+        <TabsTech />
       </section>
       <section id="interesesYEspecializacion" className="mt-12">
         <h3 className="text-5xl underline my-10">Algunos de mis trabajos</h3>
@@ -147,7 +71,7 @@ export default async function Home() {
         <div className=" group mt-3 w-full h-full flex justify-center items-center mb-0">
           <Link className="bg-green-400 text-white group-hover:text-[#333] p-1 rounded w-full flex justify-center items-center hover:bg-green-300" href={"/Proyectos"}   >
             <div className="flex gap-1 items-center ">
-              {t('seePort')} <FaArrowRightLong  /> <FaBriefcase  className="group-hover:text-2xl"/>
+              {t('seePort')} <FaArrowRightLong /> <FaBriefcase className="group-hover:text-2xl" />
             </div>
           </Link>
         </div>
