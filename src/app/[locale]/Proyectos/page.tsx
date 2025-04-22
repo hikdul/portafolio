@@ -16,8 +16,8 @@ const proyectos: {
             title: "Trendbas",
             desc_short: "Pagina de presentacion de productos para la empresa trendbas.",
             img: "/img/trendbas.png",
-            inicio: new Date(20, 12, 2024),
-            fin: new Date(11, 12, 2024),
+            inicio: new Date(2024, 12, 11),
+            fin: new Date(2024, 12, 20),
             tech: ['react', 'next', 'ts'],
             desc_long: `### Titulo 
 __el siguiente:__ es un ejemplo de como se trabajaria un markdown, aca viene a aparecer mas texto y acontinuacion una imagen
@@ -28,8 +28,8 @@ __el siguiente:__ es un ejemplo de como se trabajaria un markdown, aca viene a a
             title: "portafolio",
             desc_short: "Pagina de presentacion de productos para la empresa trendbas.",
             img: "/img/face_chibi.png",
-            inicio: new Date(20, 12, 2024),
-            fin: new Date(11, 12, 2024),
+            inicio: new Date(2025, 4, 1),
+            fin: new Date(2025, 4, 30),
             tech: ['react', 'next', 'ts'],
             desc_long: `
 literal es el codigo sobre el que estamos trabajando en este momento o el que estas viendo pues de aqui es donde parte todo
@@ -45,7 +45,7 @@ aca viene a aparecer mas texto y acontinuacion una ***imagen***
             title: "Asispass",
             desc_short: "Manejador  de marcaciones y tiempos de operacion y laborabilidad para multiples empresas",
             img: "/img/asispass.png",
-            inicio: new Date(20, 12, 2024),
+            inicio: new Date(2023, 2, 15),
             tech: ['dotnet', 'csharp', 'aws'],
             desc_long: `este SAAS, esta cubierto por dos normativas de aceptacion del gobierno chileno y donde actualmente operan bajo 2 normal de aprobacion y bueno la verdad es que necesito mejorar tanto la redacion como la carga de datos segun el idioma.
 la linea anterior  se ve mal
@@ -55,7 +55,7 @@ la linea anterior  se ve mal
             title: "Rusquito",
             desc_short: "MqTT broker writen on Rust",
             img: "/img/pr/rT.png",
-            inicio: new Date(20, 12, 2024),
+            inicio: new Date(2024, 11, 10),
             tech: ['rust', 'aws'],
             desc_long: `este SAAS, esta cubierto por dos normativas de aceptacion del gobierno chileno y donde actualmente operan bajo 2 normal de aprobacion y bueno la verdad es que necesito mejorar tanto la redacion como la carga de datos segun el idioma.
 la linea anterior  se ve mal
