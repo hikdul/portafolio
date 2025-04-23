@@ -58,5 +58,5 @@ export default {
     },
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require('tailwind-animation-delay'),require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'),require('tailwind-animation-delay')],
 } satisfies Config;

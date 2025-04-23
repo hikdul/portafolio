@@ -14,6 +14,40 @@
   font-style: normal;
 }
 
+@layer base {
+  h1 {
+    font-size: var(--text-6xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-green-400);
+    text-align: center;
+    padding: 10px;
+    margin-bottom:10px; 
+  }
+  h2 {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-green-400);
+    text-align: center;
+    padding: 10px;
+    margin-bottom:10px; 
+  }
+  h3 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-green-400);
+    text-align: center;
+    padding: 10px;
+    margin-bottom:10px; 
+  }
+  a {
+    color: var(--color-green-400);
+    transition: all 1s linear;
+  }
+  a:hover{
+    color: var(--color-green-300);
+  }
+}
+
 :root {
   --hwhite: #F5F5DC;
   --hdark: #333333;

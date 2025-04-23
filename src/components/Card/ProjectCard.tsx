@@ -57,7 +57,7 @@ const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech, url
     if (true)
         return (<div onClick={open} className="border-0 border-b-2 border-green-500 my-5 p-1 rounded-none">
             <div className={cn("heading px-5 py-1 bg-green-400 text-white w-[40%] duration-300 translate-x-14 rounded-tl-2xl", expand && "translate-x-0 w-[70%]")}>
-                <h3 className={cn("text-2xl", expand && "text-4xl text-white font-bold ml-12")}>{title}</h3>
+                <h3 className={cn("text-2xl text-white", expand && "text-4xl text-white font-bold ml-12")}>{title}</h3>
             </div>
             <div className="body grid grid-cols-3 lg:grid-cols-5 overflow-hidden pt-5">
                 <div className={cn("flex items-center ", expand ? "hidden" : "")}>
