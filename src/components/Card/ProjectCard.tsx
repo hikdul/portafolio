@@ -11,6 +11,10 @@ import Link from "next/link"
 
 interface props {
     title: string
+    desc_short_en: string
+    desc_long_en: string
+    desc_short_it: string
+    desc_long_it: string
     desc_short: string
     desc_long: string
     img: string
@@ -19,6 +23,7 @@ interface props {
     tech: iconName[]
     url?: string
     github?: string
+    locale?: string
 }
 
 
@@ -30,10 +35,12 @@ const getDateTime = (dat?: Date): string => {
     return `${dat.getDate()}/${dat.getMonth()}/${dat.getFullYear()}`
 }
 
-const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech, url, github }: props) => {
-
+const ProjectCard = ({ title, desc_long, desc_long_en, desc_long_it, desc_short, desc_short_en, desc_short_it, img, inicio, fin, tech, url, github, locale }: props) => {
+    //const locale = locale
+    
     const [expand, setExpand] = useState<boolean>(false)
     const [loading, setLoading] = useState<boolean>(false)
+    //console.log({locale})
 
     const toggle = () => {
         setLoading(true)
@@ -64,10 +71,14 @@ const ProjectCard = ({ title, desc_long, desc_short, img, inicio, fin, tech, url
                     <Image width={100} height={100} className="size-fit -translate-y-5" src={img} alt={title} />
                 </div>
                 <div className={cn("texto_corto col-span-2 lg:col-span-4", expand ? "hidden" : "")}>
-                    {desc_short}
+                    {locale == 'es' && <>{desc_short}</>}
+                    {locale == 'en' && <>{desc_short_en}</>}
+                    {locale == 'it' && <>{desc_short_it}</>}
                 </div>
                 <div className={cn("texto_comp col-span-3 lg:col-span-5", expand ? "" : "hidden")}>
-                    <ReactMarkdown>{desc_long.trim()}</ReactMarkdown>
+                    {locale === 'es' && <ReactMarkdown>{desc_long.trim()}</ReactMarkdown>}
+                    {locale === 'en' && <ReactMarkdown>{desc_long_en.trim()}</ReactMarkdown>}
+                    {locale === 'it' && <ReactMarkdown>{desc_long_it.trim()}</ReactMarkdown>}
                 </div>
             </div>
 
