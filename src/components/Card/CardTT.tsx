@@ -36,7 +36,7 @@ const Component = async ({ title, desc, tech, imgUrl}: props) =>{
           </div>
           <div className="h-0.5 w-[40%] group-hover:w-[70%] duration-500 bg-green-400  "></div>
           <div className=" font-extralight group-hover:font-medium">
-            <p className="text-slate-900 dark:text-white">
+            <p className="text-slate-900 dark:text-white ">
               {t(desc)}
             </p>
           </div>

@@ -1471,9 +1471,305 @@ FGIS no solo ha facilitado el trabajo del equipo de desarrollo, sino que ha esta
 
 `
         },
+        {
+
+            title: "MarineFarm",
+            desc_short: "Este software fue una petición específica de un cliente del rubro marítimo. Se trata de un terminal pesquero encargado de clasificar, limpiar, organizar y congelar productos marinos, cuya demanda varía según la temporada y la disponibilidad.",
+            desc_short_en: "This software was a specific request from a client in the maritime sector. It is a fish terminal responsible for classifying, cleaning, organizing, and freezing seafood products, whose demand varies depending on the season and availability.",
+            desc_short_it: "Questo software è stato una richiesta specifica di un cliente del settore marittimo. Si tratta di un terminale ittico incaricato di classificare, pulire, organizzare e congelare prodotti marini, la cui domanda varia in base alla stagione e alla disponibilità.",
+            img: "/img/granjamar.jpg",
+            url: "https://www.granjamar.cl/",
+            inicio: new Date(2022, 3, 1),
+            fin: new Date(2022,7,30),
+            tech: ['dotnet'],
+            desc_long: `
+# 🐟 Terminal Pesquero
+
+Este software fue una petición específica de un cliente del rubro marítimo. Se trata de un **terminal pesquero** encargado de **clasificar, limpiar, organizar y congelar productos marinos**, cuya demanda varía según la temporada y la disponibilidad.
+
+La empresa solía manejar toda esta información **manualmente** en hojas de cálculo y reportes físicos, lo que dificultaba la toma de decisiones, el control de la producción y la gestión de pedidos. El objetivo fue crear un sistema que centralizara toda esa información en una aplicación web accesible y automatizada.
+
+## 👥 Roles y funcionalidades
+
+El sistema está diseñado para diferentes tipos de usuarios, cada uno con permisos y vistas personalizadas:
+
+- **🧑‍✈️ Jefe de Terminal**
+  - Ver estadísticas en tiempo real y de temporadas pasadas o futuras.
+  - Generar reportes (PDF).
+  - Asignar tareas.
+  - Crear y administrar usuarios.
+  - Explorar comparativas de producción entre grupos y temporadas.
+
+- **⚙️ Jefe de Producción**
+  - Asignar tareas y tipos de producción a cada grupo.
+  - Consultar registros activos.
+  - Visualizar estadísticas de la producción actual.
+
+- **👷‍♂️ Jefe de Grupo**
+  - Ingresar datos de cada inclusión.
+  - Indicar cantidad de productos recibidos y procesados.
+
+- **🧾 Clientes**
+  - Generar pedidos.
+  - Visualizar el estado de sus pedidos.
+  - Solicitar modificaciones (revisadas por el equipo antes de ser aplicadas).
+
+## 📈 Funcionalidades destacadas
+
+- 📊 Generación de estadísticas por día, turno, grupo y tipo de producto.
+- 📅 Análisis por temporadas (grupos de 10-11 días).
+- ⏱️ Cálculo automático del tiempo de entrega, tomando en cuenta:
+  - Capacidad actual de los grupos.
+  - Carga de trabajo de la planta.
+  - Cobertura del personal.
+  - Disponibilidad real en el momento del pedido.
+- 🔁 Actualización en tiempo real del estado de producción y pedidos.
+- 📤 Exportación de reportes en PDF.
+- 📚 Carga de datos históricos proporcionados por el cliente (más de 2 años de registros detallados).
+- 🔒 Acceso restringido según tipo de usuario.
+
+## 🏗️ Arquitectura técnica
+
+- **Backend:** .NET con MVC (monolito).
+- **Base de datos:** SQL Server (con licencia activa del cliente).
+- **Infraestructura:** AWS (servidores en la nube).
+- **Exportación de datos:** PDFs generados automáticamente por el sistema.
+- **Actualización de datos:** Tiempo real, sin procesos batch.
+
+## 🧠 Lo desafiante y lo que aprendí
+
+Lo más complejo —y también lo más valioso— fue manejar grandes volúmenes de datos para generar estadísticas precisas y entregar tiempos de producción y entrega calculados dinámicamente. Fue **mi primer acercamiento serio al trabajo con estadísticas y predicción**, y me abrió todo un mundo en cuanto a lógica de negocio y modelado de datos.
+
+---
+
+
+            `,
+            desc_long_en: `
+# 🐟 Fishing Terminal
+
+This software was a specific request from a client in the maritime industry. It is a **fishing terminal** responsible for **classifying, cleaning, organizing, and freezing marine products**, with demand that varies depending on the season and availability.
+
+The company used to manage all this information **manually** using spreadsheets and physical reports, which made decision-making, production control, and order management difficult. The goal was to create a system that centralized all this information into an accessible and automated web application.
+
+## 👥 Roles and Features
+
+The system is designed for different types of users, each with personalized permissions and views:
+
+- **🧑‍✈️ Terminal Manager**
+  - View real-time and historical (past/future) statistics.
+  - Generate reports (PDF).
+  - Assign tasks.
+  - Create and manage users.
+  - Explore production comparisons between groups and seasons.
+
+- **⚙️ Production Manager**
+  - Assign tasks and production types to each group.
+  - Review active records.
+  - View statistics for current production.
+
+- **👷‍♂️ Group Leader**
+  - Enter data for each processing batch.
+  - Report the quantity of products received and processed.
+
+- **🧾 Clients**
+  - Place orders.
+  - View the status of their orders.
+  - Request modifications (reviewed by the team before being applied).
+
+## 📈 Highlighted Features
+
+- 📊 Generation of statistics by day, shift, group, and product type.
+- 📅 Seasonal analysis (10–11 day cycles).
+- ⏱️ Automatic delivery time calculation, considering:
+  - Current group capacity.
+  - Plant workload.
+  - Personnel coverage.
+  - Real-time availability at the moment of order.
+- 🔁 Real-time updates of production and order status.
+- 📤 Export of reports in PDF format.
+- 📚 Import of historical data provided by the client (over 2 years of detailed records).
+- 🔒 Access restricted by user type.
+
+## 🏗️ Technical Architecture
+
+- **Backend:** .NET with MVC (monolithic).
+- **Database:** SQL Server (with client’s active license).
+- **Infrastructure:** AWS (cloud servers).
+- **Data export:** Automatically generated PDFs.
+- **Data updates:** Real-time, no batch processes.
+
+## 🧠 Challenges and Lessons Learned
+
+The most complex — and also the most valuable — part was handling large volumes of data to generate accurate statistics and dynamically calculate production and delivery times. This was **my first serious experience working with statistics and prediction**, and it opened up a whole new world for me in terms of business logic and data modeling.
+
+            `,
+            desc_long_it: `
+# 🐟 Terminale Ittico
+
+Questo software è stato una richiesta specifica di un cliente del settore marittimo. Si tratta di un **terminale ittico** incaricato di **classificare, pulire, organizzare e congelare prodotti marini**, la cui domanda varia a seconda della stagione e della disponibilità.
+
+L'azienda gestiva tutte queste informazioni **manualmente** tramite fogli di calcolo e report cartacei, rendendo difficile il processo decisionale, il controllo della produzione e la gestione degli ordini. L'obiettivo era creare un sistema che centralizzasse tutte queste informazioni in un'applicazione web accessibile e automatizzata.
+
+## 👥 Ruoli e funzionalità
+
+Il sistema è progettato per diversi tipi di utenti, ciascuno con permessi e viste personalizzate:
+
+- **🧑‍✈️ Responsabile del Terminale**
+  - Visualizzare statistiche in tempo reale e di stagioni passate o future.
+  - Generare report (PDF).
+  - Assegnare compiti.
+  - Creare e gestire utenti.
+  - Esplorare confronti di produzione tra gruppi e stagioni.
+
+- **⚙️ Responsabile di Produzione**
+  - Assegnare compiti e tipi di produzione a ciascun gruppo.
+  - Consultare i registri attivi.
+  - Visualizzare statistiche della produzione corrente.
+
+- **👷‍♂️ Capo Gruppo**
+  - Inserire dati per ogni ciclo di lavorazione.
+  - Segnalare la quantità di prodotti ricevuti e lavorati.
+
+- **🧾 Clienti**
+  - Effettuare ordini.
+  - Visualizzare lo stato dei propri ordini.
+  - Richiedere modifiche (verificate dal team prima di essere applicate).
+
+## 📈 Funzionalità principali
+
+- 📊 Generazione di statistiche per giorno, turno, gruppo e tipo di prodotto.
+- 📅 Analisi per stagioni (cicli di 10–11 giorni).
+- ⏱️ Calcolo automatico dei tempi di consegna, considerando:
+  - Capacità attuale dei gruppi.
+  - Carico di lavoro dell’impianto.
+  - Copertura del personale.
+  - Disponibilità reale al momento dell’ordine.
+- 🔁 Aggiornamento in tempo reale dello stato di produzione e degli ordini.
+- 📤 Esportazione dei report in formato PDF.
+- 📚 Caricamento dei dati storici forniti dal cliente (oltre 2 anni di registrazioni dettagliate).
+- 🔒 Accesso limitato in base al tipo di utente.
+
+## 🏗️ Architettura tecnica
+
+- **Backend:** .NET con MVC (monolite).
+- **Database:** SQL Server (con licenza attiva del cliente).
+- **Infrastruttura:** AWS (server in cloud).
+- **Esportazione dati:** PDF generati automaticamente dal sistema.
+- **Aggiornamento dati:** In tempo reale, senza processi batch.
+
+## 🧠 Sfide e apprendimento
+
+La parte più complessa — e anche la più preziosa — è stata gestire grandi volumi di dati per generare statistiche precise e calcolare in modo dinamico i tempi di produzione e consegna. È stata **la mia prima esperienza seria con statistiche e previsioni**, e mi ha aperto un mondo nuovo in termini di logica di business e modellazione dei dati.
+
+            `
+        },
 {
 
-            title: "titulo",
+            title: "topaca.cl",
+            desc_short: "landing para empresa de suministros de control de acceso",
+            desc_short_en:"Landing page for an access control supply company",
+            desc_short_it: "keyPup is a comprehensive digital checklist and vehicle control solution, designed for mining operations. It automates vehicle verification before starting the workday and blocks its use if the process is not completed correctly. With a focus on traceability, security, and remote control, keyPup enhances fleet operations in demanding environments.", 
+            img: "/img/topaca.png",
+            url: "https://topaca.cl",
+            github: "https://github.com/hikdul/topaca",
+            inicio: new Date(2020, 4, 1),
+            fin: new Date(2020,5,15),
+            tech: [],
+            desc_long: `
+# 🛒 topaca.cl
+
+**topaca.cl** fue un proyecto pequeño pero muy importante para mí: una **landing page** sencilla que debía mostrar un centenar de productos sin funcionalidades complejas ni requerimientos técnicos estrictos.
+
+## 💡 ¿Por qué es especial?
+
+Fue el **primer proyecto por el que recibí un pago como programador**. En ese momento, sin mucha experiencia profesional ni conocimiento del rubro, desarrollé todo usando herramientas "a la vieja escuela": **HTML, CSS** y algunos efectos visuales que lograba con **JavaScript puro**, simplemente por diversión y curiosidad.
+
+## ✨ Qué hice
+
+- Diseño web estático.
+- Maquetación responsive desde cero.
+- Animaciones simples hechas a mano con JavaScript.
+- Organización visual de productos sin backend.
+
+## 🚀 Lo que aprendí
+
+Este proyecto me permitió:
+
+- Explorar libremente ideas visuales.
+- Aprender haciendo.
+- Entender el flujo de trabajo con un cliente real (aunque sin muchas exigencias).
+- Y lo más importante: **abrirme puertas para nuevos encargos** similares de landings y sitios web.
+
+Desde entonces, desarrollé otras páginas informativas y catálogos sencillos que me ayudaron a **pulir mis habilidades web** y ganar más confianza en el desarrollo frontend.
+
+---
+
+
+            `,
+            desc_long_en: `
+# 🛒 topaca.cl
+
+**topaca.cl** was a small but very meaningful project for me: a simple **landing page** meant to showcase around a hundred products, with no complex functionality or strict technical requirements.
+
+## 💡 Why is it special?
+
+It was the **first project I got paid for as a developer**. At the time, with little professional experience and barely any industry knowledge, I built everything using "old school" tools: **HTML, CSS**, and a few visual effects made with **vanilla JavaScript**, just for fun and curiosity.
+
+## ✨ What I did
+
+- Static web design.
+- Responsive layout built from scratch.
+- Simple animations handcrafted with JavaScript.
+- Visual product organization without a backend.
+
+## 🚀 What I learned
+
+This project allowed me to:
+
+- Freely explore visual ideas.
+- Learn by doing.
+- Understand how to work with a real client (even with low demands).
+- And most importantly: **it opened the door to more paid gigs** for landing pages and websites.
+
+Since then, I’ve developed other informational pages and simple catalogs that helped me **refine my web development skills** and gain confidence in frontend work.
+
+---
+
+            `,
+            desc_long_it: `
+# 🛒 topaca.cl
+
+**topaca.cl** è stato un progetto piccolo ma molto significativo per me: una **landing page** semplice pensata per mostrare un centinaio di prodotti, senza funzionalità complesse né requisiti tecnici particolari.
+
+## 💡 Perché è speciale?
+
+È stato il **primo progetto per cui sono stato pagato come sviluppatore**. All’epoca, con poca esperienza professionale e quasi nessuna conoscenza del settore, ho sviluppato tutto usando strumenti "vecchia scuola": **HTML, CSS** e alcuni effetti visivi realizzati con **JavaScript puro**, solo per divertimento e curiosità.
+
+## ✨ Cosa ho fatto
+
+- Design web statico.
+- Layout responsive creato da zero.
+- Animazioni semplici fatte a mano con JavaScript.
+- Organizzazione visiva dei prodotti senza backend.
+
+## 🚀 Cosa ho imparato
+
+Questo progetto mi ha permesso di:
+
+- Esplorare liberamente idee visive.
+- Imparare facendo.
+- Comprendere il flusso di lavoro con un cliente reale (anche se poco esigente).
+- E soprattutto: **mi ha aperto le porte a nuovi incarichi** simili di landing page e siti web.
+
+Da allora ho sviluppato altre pagine informative e cataloghi semplici che mi hanno aiutato a **raffinare le mie competenze web** e a guadagnare sicurezza nello sviluppo frontend.
+
+---
+
+            `
+        },
+        {
+
+            title: "Portafolio",
             desc_short: "short",
             desc_short_en:"keyPup is a comprehensive digital checklist and vehicle control solution, designed for mining operations. It automates vehicle verification before starting the workday and blocks its use if the process is not completed correctly. With a focus on traceability, security, and remote control, keyPup enhances fleet operations in demanding environments.", 
             desc_short_it: "keyPup è una soluzione completa di checklist digitale e controllo veicolare, progettata per operazioni minerarie. Automatizza la verifica dei veicoli prima di iniziare la giornata lavorativa e blocca il loro utilizzo se il processo non viene completato correttamente. Con un focus sulla tracciabilità, la sicurezza e il controllo remoto, keyPup migliora l'operazione delle flotte in ambienti esigenti.",
