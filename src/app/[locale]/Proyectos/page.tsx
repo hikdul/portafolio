@@ -698,9 +698,9 @@ Tutto il traffico è limitato e monitorato da Cloud Control Pass, che si occupa 
         },
         {
             title: "Rhinap",
-            desc_short: "Historial de instalacion y mantenimiento de equipos",
-            desc_short_en:"keyPup is a comprehensive digital checklist and vehicle control solution, designed for mining operations. It automates vehicle verification before starting the workday and blocks its use if the process is not completed correctly. With a focus on traceability, security, and remote control, keyPup enhances fleet operations in demanding environments.", 
-            desc_short_it: "keyPup è una soluzione completa di checklist digitale e controllo veicolare, progettata per operazioni minerarie. Automatizza la verifica dei veicoli prima di iniziare la giornata lavorativa e blocca il loro utilizzo se il processo non viene completato correttamente. Con un focus sulla tracciabilità, la sicurezza e il controllo remoto, keyPup migliora l'operazione delle flotte in ambienti esigenti.",
+            desc_short: "Historial de instalacion y mantenimiento; ciclo de vida de distintos equipos de control de acceso",
+            desc_short_en:"Installation and maintenance history; lifecycle of various access control equipment", 
+            desc_short_it: "Storia dell'installazione e della manutenzione; ciclo di vita dei diversi dispositivi di controllo accessi",
             img: "/img/rhinap.png",
             url: "https://rinapp.svg",
             inicio: new Date(2021, 11, 25),
@@ -1073,10 +1073,10 @@ Fui responsable del desarrollo de la aplicación web y de la configuración comp
 
 ---
 
-## 📊 Diagrama técnico (próximamente)
+## 📊 Diagrama técnico 
 
 
-![keyPup_diagrama](/img/keypup_arg.png)
+![keyPup_diagrama](/img/keypup_arq.png)
 
 
 ---
@@ -1767,12 +1767,12 @@ Da allora ho sviluppato altre pagine informative e cataloghi semplici che mi han
 
             `
         },
-        {
+        /*{
 
             title: "Portafolio",
             desc_short: "short",
-            desc_short_en:"keyPup is a comprehensive digital checklist and vehicle control solution, designed for mining operations. It automates vehicle verification before starting the workday and blocks its use if the process is not completed correctly. With a focus on traceability, security, and remote control, keyPup enhances fleet operations in demanding environments.", 
-            desc_short_it: "keyPup è una soluzione completa di checklist digitale e controllo veicolare, progettata per operazioni minerarie. Automatizza la verifica dei veicoli prima di iniziare la giornata lavorativa e blocca il loro utilizzo se il processo non viene completato correttamente. Con un focus sulla tracciabilità, la sicurezza e il controllo remoto, keyPup migliora l'operazione delle flotte in ambienti esigenti.",
+            desc_short_en:"short",
+            desc_short_it: "short",
             img: "/img/rinapp.png",
             url: "https://rinapp.com",
             github: "https://github.com/hikdul",
@@ -1791,7 +1791,7 @@ Da allora ho sviluppato altre pagine informative e cataloghi semplici che mi han
             
             large
             `
-        }
+        }*/
     ]
 
 
